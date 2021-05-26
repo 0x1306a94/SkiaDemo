@@ -73,5 +73,5 @@ ninja -C out/macosx skia
 # 效果
 
 ![](WX20210526-160023@2x.png)
-[示例一](test.mp4)
-[示例二](test2.mp4)
+* [生成示例一视频](test.mp4)
+* [生成示例二视频](test2.mp4)
