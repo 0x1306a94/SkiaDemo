@@ -1,0 +1,18 @@
+//
+//  Config.xcconfig
+//  skottie2movie
+//
+//  Created by king on 2021/5/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+LIBRARY_SEARCH_PATHS = $(inherited) $(SRCROOT)/skottie2movie/Skia/lib /usr/local/opt/ffmpeg/lib
+
+HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/skottie2movie/Skia /usr/local/opt/ffmpeg/include
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) SK_METAL
+
+OTHER_LDFLAGS = $(inherited) -lskia -lskottie -lsksg -lskshaper -lskresources -lavcodec -lavformat -lswscale -lavutil

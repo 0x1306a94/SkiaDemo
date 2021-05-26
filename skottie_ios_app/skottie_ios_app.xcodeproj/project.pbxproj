@@ -1,0 +1,1845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC945BF265DD989006CCAD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945BE265DD989006CCAD3 /* AppDelegate.m */; };
+		3CC945C5265DD989006CCAD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945C4265DD989006CCAD3 /* ViewController.m */; };
+		3CC945CA265DD98E006CCAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC945C9265DD98E006CCAD3 /* Assets.xcassets */; };
+		3CC945CD265DD98E006CCAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC945CB265DD98E006CCAD3 /* LaunchScreen.storyboard */; };
+		3CC945D0265DD98E006CCAD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945CF265DD98E006CCAD3 /* main.m */; };
+		3CC945E4265DDA29006CCAD3 /* SkottieViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945D8265DDA28006CCAD3 /* SkottieViewController.mm */; };
+		3CC945E5265DDA29006CCAD3 /* SkMetalViewBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945D9265DDA28006CCAD3 /* SkMetalViewBridge.mm */; };
+		3CC945E6265DDA29006CCAD3 /* GrContextHolder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945DA265DDA28006CCAD3 /* GrContextHolder.mm */; };
+		3CC945E7265DDA29006CCAD3 /* SkiaMetalContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945DB265DDA28006CCAD3 /* SkiaMetalContext.mm */; };
+		3CC945E8265DDA29006CCAD3 /* SkiaContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945DE265DDA28006CCAD3 /* SkiaContext.mm */; };
+		3CC945E9265DDA29006CCAD3 /* SkiaViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945DF265DDA28006CCAD3 /* SkiaViewController.mm */; };
+		3CC945EB265DDA29006CCAD3 /* SkiaUIContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945E2265DDA29006CCAD3 /* SkiaUIContext.mm */; };
+		3CC945EE265DDA54006CCAD3 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC945ED265DDA54006CCAD3 /* AppViewController.m */; };
+		3CC94748265DDDDB006CCAD3 /* skottie-nested-animation.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F1265DDBDC006CCAD3 /* skottie-nested-animation.json */; };
+		3CC94749265DDDDB006CCAD3 /* skottie-fill-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F2265DDBDC006CCAD3 /* skottie-fill-effect.json */; };
+		3CC9474A265DDDDB006CCAD3 /* skottie-venetianblinds-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F3265DDBDC006CCAD3 /* skottie-venetianblinds-effect.json */; };
+		3CC9474B265DDDDB006CCAD3 /* skottie-camera-one-node.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F4265DDBDC006CCAD3 /* skottie-camera-one-node.json */; };
+		3CC9474C265DDDDB006CCAD3 /* skottie-tritone-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F5265DDBDC006CCAD3 /* skottie-tritone-effect.json */; };
+		3CC9474D265DDDDC006CCAD3 /* skottie-hidden-shapes-layers.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F6265DDBDC006CCAD3 /* skottie-hidden-shapes-layers.json */; };
+		3CC9474E265DDDDC006CCAD3 /* skottie-text-animator-5.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F7265DDBDC006CCAD3 /* skottie-text-animator-5.json */; };
+		3CC9474F265DDDDC006CCAD3 /* skottie-linear-wipe-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F8265DDBDC006CCAD3 /* skottie-linear-wipe-effect.json */; };
+		3CC94750265DDDDC006CCAD3 /* skottie-repeater.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945F9265DDBDC006CCAD3 /* skottie-repeater.json */; };
+		3CC94751265DDDDC006CCAD3 /* skottie_sample_multiframe.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945FA265DDBDC006CCAD3 /* skottie_sample_multiframe.json */; };
+		3CC94752265DDDDC006CCAD3 /* skottie-text-valign.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945FB265DDBDC006CCAD3 /* skottie-text-valign.json */; };
+		3CC94753265DDDDC006CCAD3 /* skottie-fractalnoise-linear.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945FC265DDBDD006CCAD3 /* skottie-fractalnoise-linear.json */; };
+		3CC94754265DDDDC006CCAD3 /* skottie-gradient-opacity.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945FD265DDBDD006CCAD3 /* skottie-gradient-opacity.json */; };
+		3CC94755265DDDDC006CCAD3 /* skottie-fractalnoise-turbulentsmooth.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945FE265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentsmooth.json */; };
+		3CC94756265DDDDC006CCAD3 /* skottie-fractalnoise-turbulentsharp.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC945FF265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentsharp.json */; };
+		3CC94757265DDDDC006CCAD3 /* skottie-text-animator-8.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94600265DDBDD006CCAD3 /* skottie-text-animator-8.json */; };
+		3CC94758265DDDDC006CCAD3 /* skottie-innershadow-style.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94601265DDBDD006CCAD3 /* skottie-innershadow-style.json */; };
+		3CC94759265DDDDC006CCAD3 /* skottie-text-grouping-alignment-2.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94602265DDBDD006CCAD3 /* skottie-text-grouping-alignment-2.json */; };
+		3CC9475A265DDDDC006CCAD3 /* skottie-text-perchar-3d.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94603265DDBDD006CCAD3 /* skottie-text-perchar-3d.json */; };
+		3CC9475B265DDDDC006CCAD3 /* skottie-text-scale-to-fit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94604265DDBDD006CCAD3 /* skottie-text-scale-to-fit.json */; };
+		3CC9475C265DDDDC006CCAD3 /* skottie-displacement-hsla.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94605265DDBDD006CCAD3 /* skottie-displacement-hsla.json */; };
+		3CC9475D265DDDDC006CCAD3 /* skottie-trimpath-modes.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94606265DDBDD006CCAD3 /* skottie-trimpath-modes.json */; };
+		3CC9475E265DDDDC006CCAD3 /* skottie-text-valign-scaletofit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94607265DDBDD006CCAD3 /* skottie-text-valign-scaletofit.json */; };
+		3CC9475F265DDDDC006CCAD3 /* skottie-blackandwhite-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94608265DDBDD006CCAD3 /* skottie-blackandwhite-effect.json */; };
+		3CC94760265DDDDC006CCAD3 /* skottie-line-height.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94609265DDBDD006CCAD3 /* skottie-line-height.json */; };
+		3CC94761265DDDDC006CCAD3 /* skottie-text-animator-4.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9460A265DDBDD006CCAD3 /* skottie-text-animator-4.json */; };
+		3CC94762265DDDDC006CCAD3 /* skottie-transform-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9460B265DDBDD006CCAD3 /* skottie-transform-effect.json */; };
+		3CC94763265DDDDC006CCAD3 /* skottie-text-scale-to-fit-minmax.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9460C265DDBDD006CCAD3 /* skottie-text-scale-to-fit-minmax.json */; };
+		3CC94764265DDDDC006CCAD3 /* skottie-text-animator-fillstrokeopacity.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9460D265DDBDD006CCAD3 /* skottie-text-animator-fillstrokeopacity.json */; };
+		3CC94765265DDDDC006CCAD3 /* skottie-camera-parent-2.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94610265DDBDD006CCAD3 /* skottie-camera-parent-2.json */; };
+		3CC94766265DDDDC006CCAD3 /* skottie-trimpath-fill.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94611265DDBDD006CCAD3 /* skottie-trimpath-fill.json */; };
+		3CC94767265DDDDC006CCAD3 /* skottie-masking-opaque.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94612265DDBDD006CCAD3 /* skottie-masking-opaque.json */; };
+		3CC94768265DDDDC006CCAD3 /* skottie-glow-spread.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94613265DDBDD006CCAD3 /* skottie-glow-spread.json */; };
+		3CC94769265DDDDC006CCAD3 /* skottie-time-reverse.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94614265DDBDD006CCAD3 /* skottie-time-reverse.json */; };
+		3CC9476A265DDDDC006CCAD3 /* skottie-shift-channels-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94615265DDBDD006CCAD3 /* skottie-shift-channels-effect.json */; };
+		3CC9476B265DDDDC006CCAD3 /* skottie-brightnesscontrast.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94616265DDBDD006CCAD3 /* skottie-brightnesscontrast.json */; };
+		3CC9476C265DDDDC006CCAD3 /* skottie-text-vertical-clip.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94617265DDBDD006CCAD3 /* skottie-text-vertical-clip.json */; };
+		3CC9476D265DDDDC006CCAD3 /* skottie-mergepaths-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94618265DDBDD006CCAD3 /* skottie-mergepaths-effect.json */; };
+		3CC9476E265DDDDC006CCAD3 /* skottie-sphere-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94619265DDBDD006CCAD3 /* skottie-sphere-effect.json */; };
+		3CC9476F265DDDDC006CCAD3 /* skottie-text-animator-3.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9461A265DDBDD006CCAD3 /* skottie-text-animator-3.json */; };
+		3CC94770265DDDDC006CCAD3 /* skottie-text-animator-2.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9461B265DDBDD006CCAD3 /* skottie-text-animator-2.json */; };
+		3CC94771265DDDDC006CCAD3 /* skottie-text-resize-to-fit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9461C265DDBDD006CCAD3 /* skottie-text-resize-to-fit.json */; };
+		3CC94772265DDDDC006CCAD3 /* skottie-camera-precomp.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9461D265DDBDD006CCAD3 /* skottie-camera-precomp.json */; };
+		3CC94773265DDDDC006CCAD3 /* skottie-fractalnoise-basic.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9461E265DDBDD006CCAD3 /* skottie-fractalnoise-basic.json */; };
+		3CC94774265DDDDC006CCAD3 /* skottie-auto-orient.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9461F265DDBDD006CCAD3 /* skottie-auto-orient.json */; };
+		3CC94775265DDDDC006CCAD3 /* skottie_sample_2.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94620265DDBDD006CCAD3 /* skottie_sample_2.json */; };
+		3CC94776265DDDDC006CCAD3 /* skottie-puckerbloat-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94621265DDBDD006CCAD3 /* skottie-puckerbloat-effect.json */; };
+		3CC94777265DDDDC006CCAD3 /* skottie-sphere-lighting-types.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94622265DDBDD006CCAD3 /* skottie-sphere-lighting-types.json */; };
+		3CC94778265DDDDC006CCAD3 /* skottie-huesaturation-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94623265DDBDD006CCAD3 /* skottie-huesaturation-effect.json */; };
+		3CC94779265DDDDC006CCAD3 /* skottie-motion-blur-ph-360.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94624265DDBDD006CCAD3 /* skottie-motion-blur-ph-360.json */; };
+		3CC9477A265DDDDC006CCAD3 /* skottie-text-animator-linespacing.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94625265DDBDD006CCAD3 /* skottie-text-animator-linespacing.json */; };
+		3CC9477B265DDDDC006CCAD3 /* skottie-motiontile-effect-phase.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94626265DDBDD006CCAD3 /* skottie-motiontile-effect-phase.json */; };
+		3CC9477C265DDDDC006CCAD3 /* skottie-matte-blendmode.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94627265DDBDD006CCAD3 /* skottie-matte-blendmode.json */; };
+		3CC9477D265DDDDC006CCAD3 /* skottie-displacement-rgba.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94628265DDBDD006CCAD3 /* skottie-displacement-rgba.json */; };
+		3CC9477E265DDDDC006CCAD3 /* skottie-3d-3planes.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94629265DDBDD006CCAD3 /* skottie-3d-3planes.json */; };
+		3CC9477F265DDDDC006CCAD3 /* skottie-camera-parent-3.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9462A265DDBDD006CCAD3 /* skottie-camera-parent-3.json */; };
+		3CC94780265DDDDC006CCAD3 /* skottie-fractalnoise-block.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9462B265DDBDD006CCAD3 /* skottie-fractalnoise-block.json */; };
+		3CC94781265DDDDC006CCAD3 /* skottie-bezier-extranormal.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9462C265DDBDD006CCAD3 /* skottie-bezier-extranormal.json */; };
+		3CC94782265DDDDC006CCAD3 /* skottie-sphere-controls.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9462D265DDBDD006CCAD3 /* skottie-sphere-controls.json */; };
+		3CC94783265DDDDC006CCAD3 /* skottie-camera-rotation.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9462E265DDBDD006CCAD3 /* skottie-camera-rotation.json */; };
+		3CC94784265DDDDC006CCAD3 /* skottie-text-animator-1.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9462F265DDBDD006CCAD3 /* skottie-text-animator-1.json */; };
+		3CC94785265DDDDC006CCAD3 /* skottie-displacement-lfho.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94630265DDBDD006CCAD3 /* skottie-displacement-lfho.json */; };
+		3CC94786265DDDDC006CCAD3 /* skottie-fractalnoise-softlinear.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94631265DDBDD006CCAD3 /* skottie-fractalnoise-softlinear.json */; };
+		3CC94787265DDDDC006CCAD3 /* skottie_sample_1.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94632265DDBDD006CCAD3 /* skottie_sample_1.json */; };
+		3CC94788265DDDDC006CCAD3 /* skottie-fractalnoise-sphere.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94633265DDBDD006CCAD3 /* skottie-fractalnoise-sphere.json */; };
+		3CC94789265DDDDC006CCAD3 /* skottie-text-grouping-alignment.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94634265DDBDD006CCAD3 /* skottie-text-grouping-alignment.json */; };
+		3CC9478A265DDDDC006CCAD3 /* skottie-3d-rotation-order.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94635265DDBDD006CCAD3 /* skottie-3d-rotation-order.json */; };
+		3CC9478B265DDDDC006CCAD3 /* skottie-radial-wipe-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94636265DDBDD006CCAD3 /* skottie-radial-wipe-effect.json */; };
+		3CC9478C265DDDDC006CCAD3 /* skottie-motion-blur-ph0.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94637265DDBDD006CCAD3 /* skottie-motion-blur-ph0.json */; };
+		3CC9478D265DDDDC006CCAD3 /* skottie-multi-range-selectors.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94638265DDBDD006CCAD3 /* skottie-multi-range-selectors.json */; };
+		3CC9478E265DDDDC006CCAD3 /* skottie-innerglow-style.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94639265DDBDD006CCAD3 /* skottie-innerglow-style.json */; };
+		3CC9478F265DDDDC006CCAD3 /* skottie-fractalnoise-suboptions.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9463A265DDBDD006CCAD3 /* skottie-fractalnoise-suboptions.json */; };
+		3CC94790265DDDDC006CCAD3 /* skottie-mask-feather.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9463B265DDBDD006CCAD3 /* skottie-mask-feather.json */; };
+		3CC94791265DDDDC006CCAD3 /* skottie-text-valign-2.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9463C265DDBDD006CCAD3 /* skottie-text-valign-2.json */; };
+		3CC94792265DDDDC006CCAD3 /* skottie-invert-effect-yiq.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9463D265DDBDD006CCAD3 /* skottie-invert-effect-yiq.json */; };
+		3CC94793265DDDDC006CCAD3 /* skottie-outerglow-style.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9463E265DDBDD006CCAD3 /* skottie-outerglow-style.json */; };
+		3CC94794265DDDDC006CCAD3 /* skottie-effects-tranform.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9463F265DDBDD006CCAD3 /* skottie-effects-tranform.json */; };
+		3CC94795265DDDDC006CCAD3 /* skottie-camera-parent-1.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94640265DDBDD006CCAD3 /* skottie-camera-parent-1.json */; };
+		3CC94796265DDDDC006CCAD3 /* skottie-threshold-compositing.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94641265DDBDD006CCAD3 /* skottie-threshold-compositing.json */; };
+		3CC94797265DDDDC006CCAD3 /* skottie-motiontile-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94642265DDBDD006CCAD3 /* skottie-motiontile-effect.json */; };
+		3CC94798265DDDDC006CCAD3 /* skottie-offsetpaths-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94643265DDBDD006CCAD3 /* skottie-offsetpaths-effect.json */; };
+		3CC94799265DDDDC006CCAD3 /* skottie-text-animator-7.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94644265DDBDD006CCAD3 /* skottie-text-animator-7.json */; };
+		3CC9479A265DDDDC006CCAD3 /* skottie-text-fill-over-stroke.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94645265DDBDD006CCAD3 /* skottie-text-fill-over-stroke.json */; };
+		3CC9479B265DDDDC006CCAD3 /* skottie-auto-orient-2.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94646265DDBDD006CCAD3 /* skottie-auto-orient-2.json */; };
+		3CC9479C265DDDDC006CCAD3 /* skottie-3d-parenting-nocamera.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94647265DDBDD006CCAD3 /* skottie-3d-parenting-nocamera.json */; };
+		3CC9479D265DDDDC006CCAD3 /* skottie-gradient-ramp.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94648265DDBDD006CCAD3 /* skottie-gradient-ramp.json */; };
+		3CC9479E265DDDDC006CCAD3 /* skottie-chained-mattes.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94649265DDBDD006CCAD3 /* skottie-chained-mattes.json */; };
+		3CC9479F265DDDDC006CCAD3 /* skottie-displacement-tiling.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9464A265DDBDD006CCAD3 /* skottie-displacement-tiling.json */; };
+		3CC947A0265DDDDC006CCAD3 /* skottie-text-pointmode-scaletofit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9464B265DDBDD006CCAD3 /* skottie-text-pointmode-scaletofit.json */; };
+		3CC947A1265DDDDC006CCAD3 /* skottie-corner-pin-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9464C265DDBDD006CCAD3 /* skottie-corner-pin-effect.json */; };
+		3CC947A2265DDDDC006CCAD3 /* skottie-3d-parenting-camera.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9464D265DDBDD006CCAD3 /* skottie-3d-parenting-camera.json */; };
+		3CC947A3265DDDDC006CCAD3 /* skottie-text-baseline-shift.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9464E265DDBDD006CCAD3 /* skottie-text-baseline-shift.json */; };
+		3CC947A4265DDDDC006CCAD3 /* skottie-transform-skew.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9464F265DDBDD006CCAD3 /* skottie-transform-skew.json */; };
+		3CC947A5265DDDDC006CCAD3 /* skottie-dropshadow-style.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94650265DDBDD006CCAD3 /* skottie-dropshadow-style.json */; };
+		3CC947A6265DDDDC006CCAD3 /* skottie-masking-translucent.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94651265DDBDD006CCAD3 /* skottie-masking-translucent.json */; };
+		3CC947A7265DDDDC006CCAD3 /* skottie-3d-2planes.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94652265DDBDD006CCAD3 /* skottie-3d-2planes.json */; };
+		3CC947A8265DDDDC006CCAD3 /* skottie-prolevels-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94653265DDBDD006CCAD3 /* skottie-prolevels-effect.json */; };
+		3CC947A9265DDDDC006CCAD3 /* skottie-inline-fonts.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94654265DDBDD006CCAD3 /* skottie-inline-fonts.json */; };
+		3CC947AA265DDDDD006CCAD3 /* skottie-invert-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94655265DDBDD006CCAD3 /* skottie-invert-effect.json */; };
+		3CC947AB265DDDDD006CCAD3 /* skottie-threshold-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94656265DDBDD006CCAD3 /* skottie-threshold-effect.json */; };
+		3CC947AC265DDDDD006CCAD3 /* skottie-sphere-lighting.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94657265DDBDD006CCAD3 /* skottie-sphere-lighting.json */; };
+		3CC947AD265DDDDD006CCAD3 /* skottie_sample_search.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94658265DDBDD006CCAD3 /* skottie_sample_search.json */; };
+		3CC947AE265DDDDD006CCAD3 /* skottie-text-valign-bottom.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94659265DDBDD006CCAD3 /* skottie-text-valign-bottom.json */; };
+		3CC947AF265DDDDD006CCAD3 /* skottie-luma-matte.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9465A265DDBDD006CCAD3 /* skottie-luma-matte.json */; };
+		3CC947B0265DDDDD006CCAD3 /* skottie-levels-effect.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9465B265DDBDD006CCAD3 /* skottie-levels-effect.json */; };
+		3CC947B1265DDDDD006CCAD3 /* skottie_sample_webfont.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9465C265DDBDD006CCAD3 /* skottie_sample_webfont.json */; };
+		3CC947B2265DDDDD006CCAD3 /* skottie-brightnesscontrast-legacy.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9465D265DDBDD006CCAD3 /* skottie-brightnesscontrast-legacy.json */; };
+		3CC947B3265DDDDD006CCAD3 /* skottie-motion-blur-mask.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9465E265DDBDD006CCAD3 /* skottie-motion-blur-mask.json */; };
+		3CC947B4265DDDDD006CCAD3 /* skottie-text-pointmode-downscaletofit.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9465F265DDBDD006CCAD3 /* skottie-text-pointmode-downscaletofit.json */; };
+		3CC947B5265DDDDD006CCAD3 /* skottie-fractalnoise-turbulentbasic.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94660265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentbasic.json */; };
+		3CC947B6265DDDDD006CCAD3 /* skottie-motion-blur-ph360.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94661265DDBDD006CCAD3 /* skottie-motion-blur-ph360.json */; };
+		3CC947B7265DDDDD006CCAD3 /* skottie-text-animator-6.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94662265DDBDD006CCAD3 /* skottie-text-animator-6.json */; };
+		3CC947B8265DDDDD006CCAD3 /* skottie-text-blur.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC94663265DDBDD006CCAD3 /* skottie-text-blur.json */; };
+		3CE63F27265DDE250016B350 /* triangle.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CC9460F265DDBDD006CCAD3 /* triangle.png */; };
+		3CE63F2B265DE7E90016B350 /* libskia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE63F29265DE7E90016B350 /* libskia.a */; };
+		3CE63F2C265DE7E90016B350 /* libskottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE63F2A265DE7E90016B350 /* libskottie.a */; };
+		3CE64081265DEA990016B350 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE6407F265DEA990016B350 /* Metal.framework */; };
+		3CE64082265DEA990016B350 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE64080265DEA990016B350 /* MetalKit.framework */; };
+		3CE64084265DEABB0016B350 /* libsksg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE64083265DEABB0016B350 /* libsksg.a */; };
+		3CE64088265DEADB0016B350 /* libskshaper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE64087265DEADB0016B350 /* libskshaper.a */; };
+		3CE6408B265DEC490016B350 /* PreviewViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6408A265DEC490016B350 /* PreviewViewController.mm */; };
+		3CE6408E265E079A0016B350 /* SkiaGLContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6408D265E079A0016B350 /* SkiaGLContext.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CC946D6265DDD2A006CCAD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data;
+			dstSubfolderSpec = 7;
+			files = (
+				3CC94748265DDDDB006CCAD3 /* skottie-nested-animation.json in CopyFiles */,
+				3CC94749265DDDDB006CCAD3 /* skottie-fill-effect.json in CopyFiles */,
+				3CC9474A265DDDDB006CCAD3 /* skottie-venetianblinds-effect.json in CopyFiles */,
+				3CC9474B265DDDDB006CCAD3 /* skottie-camera-one-node.json in CopyFiles */,
+				3CC9474C265DDDDB006CCAD3 /* skottie-tritone-effect.json in CopyFiles */,
+				3CC9474D265DDDDC006CCAD3 /* skottie-hidden-shapes-layers.json in CopyFiles */,
+				3CC9474E265DDDDC006CCAD3 /* skottie-text-animator-5.json in CopyFiles */,
+				3CC9474F265DDDDC006CCAD3 /* skottie-linear-wipe-effect.json in CopyFiles */,
+				3CC94750265DDDDC006CCAD3 /* skottie-repeater.json in CopyFiles */,
+				3CC94751265DDDDC006CCAD3 /* skottie_sample_multiframe.json in CopyFiles */,
+				3CC94752265DDDDC006CCAD3 /* skottie-text-valign.json in CopyFiles */,
+				3CC94753265DDDDC006CCAD3 /* skottie-fractalnoise-linear.json in CopyFiles */,
+				3CC94754265DDDDC006CCAD3 /* skottie-gradient-opacity.json in CopyFiles */,
+				3CC94755265DDDDC006CCAD3 /* skottie-fractalnoise-turbulentsmooth.json in CopyFiles */,
+				3CC94756265DDDDC006CCAD3 /* skottie-fractalnoise-turbulentsharp.json in CopyFiles */,
+				3CC94757265DDDDC006CCAD3 /* skottie-text-animator-8.json in CopyFiles */,
+				3CC94758265DDDDC006CCAD3 /* skottie-innershadow-style.json in CopyFiles */,
+				3CC94759265DDDDC006CCAD3 /* skottie-text-grouping-alignment-2.json in CopyFiles */,
+				3CC9475A265DDDDC006CCAD3 /* skottie-text-perchar-3d.json in CopyFiles */,
+				3CC9475B265DDDDC006CCAD3 /* skottie-text-scale-to-fit.json in CopyFiles */,
+				3CC9475C265DDDDC006CCAD3 /* skottie-displacement-hsla.json in CopyFiles */,
+				3CC9475D265DDDDC006CCAD3 /* skottie-trimpath-modes.json in CopyFiles */,
+				3CC9475E265DDDDC006CCAD3 /* skottie-text-valign-scaletofit.json in CopyFiles */,
+				3CC9475F265DDDDC006CCAD3 /* skottie-blackandwhite-effect.json in CopyFiles */,
+				3CC94760265DDDDC006CCAD3 /* skottie-line-height.json in CopyFiles */,
+				3CC94761265DDDDC006CCAD3 /* skottie-text-animator-4.json in CopyFiles */,
+				3CC94762265DDDDC006CCAD3 /* skottie-transform-effect.json in CopyFiles */,
+				3CC94763265DDDDC006CCAD3 /* skottie-text-scale-to-fit-minmax.json in CopyFiles */,
+				3CC94764265DDDDC006CCAD3 /* skottie-text-animator-fillstrokeopacity.json in CopyFiles */,
+				3CC94765265DDDDC006CCAD3 /* skottie-camera-parent-2.json in CopyFiles */,
+				3CC94766265DDDDC006CCAD3 /* skottie-trimpath-fill.json in CopyFiles */,
+				3CC94767265DDDDC006CCAD3 /* skottie-masking-opaque.json in CopyFiles */,
+				3CC94768265DDDDC006CCAD3 /* skottie-glow-spread.json in CopyFiles */,
+				3CC94769265DDDDC006CCAD3 /* skottie-time-reverse.json in CopyFiles */,
+				3CC9476A265DDDDC006CCAD3 /* skottie-shift-channels-effect.json in CopyFiles */,
+				3CC9476B265DDDDC006CCAD3 /* skottie-brightnesscontrast.json in CopyFiles */,
+				3CC9476C265DDDDC006CCAD3 /* skottie-text-vertical-clip.json in CopyFiles */,
+				3CC9476D265DDDDC006CCAD3 /* skottie-mergepaths-effect.json in CopyFiles */,
+				3CC9476E265DDDDC006CCAD3 /* skottie-sphere-effect.json in CopyFiles */,
+				3CC9476F265DDDDC006CCAD3 /* skottie-text-animator-3.json in CopyFiles */,
+				3CC94770265DDDDC006CCAD3 /* skottie-text-animator-2.json in CopyFiles */,
+				3CC94771265DDDDC006CCAD3 /* skottie-text-resize-to-fit.json in CopyFiles */,
+				3CC94772265DDDDC006CCAD3 /* skottie-camera-precomp.json in CopyFiles */,
+				3CC94773265DDDDC006CCAD3 /* skottie-fractalnoise-basic.json in CopyFiles */,
+				3CC94774265DDDDC006CCAD3 /* skottie-auto-orient.json in CopyFiles */,
+				3CC94775265DDDDC006CCAD3 /* skottie_sample_2.json in CopyFiles */,
+				3CC94776265DDDDC006CCAD3 /* skottie-puckerbloat-effect.json in CopyFiles */,
+				3CC94777265DDDDC006CCAD3 /* skottie-sphere-lighting-types.json in CopyFiles */,
+				3CC94778265DDDDC006CCAD3 /* skottie-huesaturation-effect.json in CopyFiles */,
+				3CC94779265DDDDC006CCAD3 /* skottie-motion-blur-ph-360.json in CopyFiles */,
+				3CC9477A265DDDDC006CCAD3 /* skottie-text-animator-linespacing.json in CopyFiles */,
+				3CC9477B265DDDDC006CCAD3 /* skottie-motiontile-effect-phase.json in CopyFiles */,
+				3CC9477C265DDDDC006CCAD3 /* skottie-matte-blendmode.json in CopyFiles */,
+				3CC9477D265DDDDC006CCAD3 /* skottie-displacement-rgba.json in CopyFiles */,
+				3CC9477E265DDDDC006CCAD3 /* skottie-3d-3planes.json in CopyFiles */,
+				3CC9477F265DDDDC006CCAD3 /* skottie-camera-parent-3.json in CopyFiles */,
+				3CC94780265DDDDC006CCAD3 /* skottie-fractalnoise-block.json in CopyFiles */,
+				3CC94781265DDDDC006CCAD3 /* skottie-bezier-extranormal.json in CopyFiles */,
+				3CC94782265DDDDC006CCAD3 /* skottie-sphere-controls.json in CopyFiles */,
+				3CC94783265DDDDC006CCAD3 /* skottie-camera-rotation.json in CopyFiles */,
+				3CC94784265DDDDC006CCAD3 /* skottie-text-animator-1.json in CopyFiles */,
+				3CC94785265DDDDC006CCAD3 /* skottie-displacement-lfho.json in CopyFiles */,
+				3CC94786265DDDDC006CCAD3 /* skottie-fractalnoise-softlinear.json in CopyFiles */,
+				3CC94787265DDDDC006CCAD3 /* skottie_sample_1.json in CopyFiles */,
+				3CC94788265DDDDC006CCAD3 /* skottie-fractalnoise-sphere.json in CopyFiles */,
+				3CC94789265DDDDC006CCAD3 /* skottie-text-grouping-alignment.json in CopyFiles */,
+				3CC9478A265DDDDC006CCAD3 /* skottie-3d-rotation-order.json in CopyFiles */,
+				3CC9478B265DDDDC006CCAD3 /* skottie-radial-wipe-effect.json in CopyFiles */,
+				3CC9478C265DDDDC006CCAD3 /* skottie-motion-blur-ph0.json in CopyFiles */,
+				3CC9478D265DDDDC006CCAD3 /* skottie-multi-range-selectors.json in CopyFiles */,
+				3CC9478E265DDDDC006CCAD3 /* skottie-innerglow-style.json in CopyFiles */,
+				3CC9478F265DDDDC006CCAD3 /* skottie-fractalnoise-suboptions.json in CopyFiles */,
+				3CC94790265DDDDC006CCAD3 /* skottie-mask-feather.json in CopyFiles */,
+				3CC94791265DDDDC006CCAD3 /* skottie-text-valign-2.json in CopyFiles */,
+				3CC94792265DDDDC006CCAD3 /* skottie-invert-effect-yiq.json in CopyFiles */,
+				3CC94793265DDDDC006CCAD3 /* skottie-outerglow-style.json in CopyFiles */,
+				3CC94794265DDDDC006CCAD3 /* skottie-effects-tranform.json in CopyFiles */,
+				3CC94795265DDDDC006CCAD3 /* skottie-camera-parent-1.json in CopyFiles */,
+				3CC94796265DDDDC006CCAD3 /* skottie-threshold-compositing.json in CopyFiles */,
+				3CC94797265DDDDC006CCAD3 /* skottie-motiontile-effect.json in CopyFiles */,
+				3CC94798265DDDDC006CCAD3 /* skottie-offsetpaths-effect.json in CopyFiles */,
+				3CC94799265DDDDC006CCAD3 /* skottie-text-animator-7.json in CopyFiles */,
+				3CC9479A265DDDDC006CCAD3 /* skottie-text-fill-over-stroke.json in CopyFiles */,
+				3CC9479B265DDDDC006CCAD3 /* skottie-auto-orient-2.json in CopyFiles */,
+				3CC9479C265DDDDC006CCAD3 /* skottie-3d-parenting-nocamera.json in CopyFiles */,
+				3CC9479D265DDDDC006CCAD3 /* skottie-gradient-ramp.json in CopyFiles */,
+				3CC9479E265DDDDC006CCAD3 /* skottie-chained-mattes.json in CopyFiles */,
+				3CC9479F265DDDDC006CCAD3 /* skottie-displacement-tiling.json in CopyFiles */,
+				3CC947A0265DDDDC006CCAD3 /* skottie-text-pointmode-scaletofit.json in CopyFiles */,
+				3CC947A1265DDDDC006CCAD3 /* skottie-corner-pin-effect.json in CopyFiles */,
+				3CC947A2265DDDDC006CCAD3 /* skottie-3d-parenting-camera.json in CopyFiles */,
+				3CC947A3265DDDDC006CCAD3 /* skottie-text-baseline-shift.json in CopyFiles */,
+				3CC947A4265DDDDC006CCAD3 /* skottie-transform-skew.json in CopyFiles */,
+				3CC947A5265DDDDC006CCAD3 /* skottie-dropshadow-style.json in CopyFiles */,
+				3CC947A6265DDDDC006CCAD3 /* skottie-masking-translucent.json in CopyFiles */,
+				3CC947A7265DDDDC006CCAD3 /* skottie-3d-2planes.json in CopyFiles */,
+				3CC947A8265DDDDC006CCAD3 /* skottie-prolevels-effect.json in CopyFiles */,
+				3CC947A9265DDDDC006CCAD3 /* skottie-inline-fonts.json in CopyFiles */,
+				3CC947AA265DDDDD006CCAD3 /* skottie-invert-effect.json in CopyFiles */,
+				3CC947AB265DDDDD006CCAD3 /* skottie-threshold-effect.json in CopyFiles */,
+				3CC947AC265DDDDD006CCAD3 /* skottie-sphere-lighting.json in CopyFiles */,
+				3CC947AD265DDDDD006CCAD3 /* skottie_sample_search.json in CopyFiles */,
+				3CC947AE265DDDDD006CCAD3 /* skottie-text-valign-bottom.json in CopyFiles */,
+				3CC947AF265DDDDD006CCAD3 /* skottie-luma-matte.json in CopyFiles */,
+				3CC947B0265DDDDD006CCAD3 /* skottie-levels-effect.json in CopyFiles */,
+				3CC947B1265DDDDD006CCAD3 /* skottie_sample_webfont.json in CopyFiles */,
+				3CC947B2265DDDDD006CCAD3 /* skottie-brightnesscontrast-legacy.json in CopyFiles */,
+				3CC947B3265DDDDD006CCAD3 /* skottie-motion-blur-mask.json in CopyFiles */,
+				3CC947B4265DDDDD006CCAD3 /* skottie-text-pointmode-downscaletofit.json in CopyFiles */,
+				3CC947B5265DDDDD006CCAD3 /* skottie-fractalnoise-turbulentbasic.json in CopyFiles */,
+				3CC947B6265DDDDD006CCAD3 /* skottie-motion-blur-ph360.json in CopyFiles */,
+				3CC947B7265DDDDD006CCAD3 /* skottie-text-animator-6.json in CopyFiles */,
+				3CC947B8265DDDDD006CCAD3 /* skottie-text-blur.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE63F26265DDE0B0016B350 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/images;
+			dstSubfolderSpec = 7;
+			files = (
+				3CE63F27265DDE250016B350 /* triangle.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CC945BA265DD989006CCAD3 /* skottie_ios_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skottie_ios_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC945BD265DD989006CCAD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CC945BE265DD989006CCAD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CC945C3265DD989006CCAD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CC945C4265DD989006CCAD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CC945C9265DD98E006CCAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC945CC265DD98E006CCAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CC945CE265DD98E006CCAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC945CF265DD98E006CCAD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CC945D7265DDA28006CCAD3 /* GrContextHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContextHolder.h; sourceTree = "<group>"; };
+		3CC945D8265DDA28006CCAD3 /* SkottieViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkottieViewController.mm; sourceTree = "<group>"; };
+		3CC945D9265DDA28006CCAD3 /* SkMetalViewBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkMetalViewBridge.mm; sourceTree = "<group>"; };
+		3CC945DA265DDA28006CCAD3 /* GrContextHolder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GrContextHolder.mm; sourceTree = "<group>"; };
+		3CC945DB265DDA28006CCAD3 /* SkiaMetalContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaMetalContext.mm; sourceTree = "<group>"; };
+		3CC945DC265DDA28006CCAD3 /* SkiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkiaViewController.h; sourceTree = "<group>"; };
+		3CC945DD265DDA28006CCAD3 /* SkiaContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkiaContext.h; sourceTree = "<group>"; };
+		3CC945DE265DDA28006CCAD3 /* SkiaContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaContext.mm; sourceTree = "<group>"; };
+		3CC945DF265DDA28006CCAD3 /* SkiaViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaViewController.mm; sourceTree = "<group>"; };
+		3CC945E0265DDA28006CCAD3 /* SkMetalViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMetalViewBridge.h; sourceTree = "<group>"; };
+		3CC945E2265DDA29006CCAD3 /* SkiaUIContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaUIContext.mm; sourceTree = "<group>"; };
+		3CC945E3265DDA29006CCAD3 /* SkottieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkottieViewController.h; sourceTree = "<group>"; };
+		3CC945EC265DDA54006CCAD3 /* AppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		3CC945ED265DDA54006CCAD3 /* AppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		3CC945F1265DDBDC006CCAD3 /* skottie-nested-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-nested-animation.json"; sourceTree = "<group>"; };
+		3CC945F2265DDBDC006CCAD3 /* skottie-fill-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fill-effect.json"; sourceTree = "<group>"; };
+		3CC945F3265DDBDC006CCAD3 /* skottie-venetianblinds-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-venetianblinds-effect.json"; sourceTree = "<group>"; };
+		3CC945F4265DDBDC006CCAD3 /* skottie-camera-one-node.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-camera-one-node.json"; sourceTree = "<group>"; };
+		3CC945F5265DDBDC006CCAD3 /* skottie-tritone-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-tritone-effect.json"; sourceTree = "<group>"; };
+		3CC945F6265DDBDC006CCAD3 /* skottie-hidden-shapes-layers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-hidden-shapes-layers.json"; sourceTree = "<group>"; };
+		3CC945F7265DDBDC006CCAD3 /* skottie-text-animator-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-5.json"; sourceTree = "<group>"; };
+		3CC945F8265DDBDC006CCAD3 /* skottie-linear-wipe-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-linear-wipe-effect.json"; sourceTree = "<group>"; };
+		3CC945F9265DDBDC006CCAD3 /* skottie-repeater.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-repeater.json"; sourceTree = "<group>"; };
+		3CC945FA265DDBDC006CCAD3 /* skottie_sample_multiframe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skottie_sample_multiframe.json; sourceTree = "<group>"; };
+		3CC945FB265DDBDC006CCAD3 /* skottie-text-valign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-valign.json"; sourceTree = "<group>"; };
+		3CC945FC265DDBDD006CCAD3 /* skottie-fractalnoise-linear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-linear.json"; sourceTree = "<group>"; };
+		3CC945FD265DDBDD006CCAD3 /* skottie-gradient-opacity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-gradient-opacity.json"; sourceTree = "<group>"; };
+		3CC945FE265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentsmooth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-turbulentsmooth.json"; sourceTree = "<group>"; };
+		3CC945FF265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentsharp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-turbulentsharp.json"; sourceTree = "<group>"; };
+		3CC94600265DDBDD006CCAD3 /* skottie-text-animator-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-8.json"; sourceTree = "<group>"; };
+		3CC94601265DDBDD006CCAD3 /* skottie-innershadow-style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-innershadow-style.json"; sourceTree = "<group>"; };
+		3CC94602265DDBDD006CCAD3 /* skottie-text-grouping-alignment-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-grouping-alignment-2.json"; sourceTree = "<group>"; };
+		3CC94603265DDBDD006CCAD3 /* skottie-text-perchar-3d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-perchar-3d.json"; sourceTree = "<group>"; };
+		3CC94604265DDBDD006CCAD3 /* skottie-text-scale-to-fit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-scale-to-fit.json"; sourceTree = "<group>"; };
+		3CC94605265DDBDD006CCAD3 /* skottie-displacement-hsla.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-displacement-hsla.json"; sourceTree = "<group>"; };
+		3CC94606265DDBDD006CCAD3 /* skottie-trimpath-modes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-trimpath-modes.json"; sourceTree = "<group>"; };
+		3CC94607265DDBDD006CCAD3 /* skottie-text-valign-scaletofit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-valign-scaletofit.json"; sourceTree = "<group>"; };
+		3CC94608265DDBDD006CCAD3 /* skottie-blackandwhite-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-blackandwhite-effect.json"; sourceTree = "<group>"; };
+		3CC94609265DDBDD006CCAD3 /* skottie-line-height.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-line-height.json"; sourceTree = "<group>"; };
+		3CC9460A265DDBDD006CCAD3 /* skottie-text-animator-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-4.json"; sourceTree = "<group>"; };
+		3CC9460B265DDBDD006CCAD3 /* skottie-transform-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-transform-effect.json"; sourceTree = "<group>"; };
+		3CC9460C265DDBDD006CCAD3 /* skottie-text-scale-to-fit-minmax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-scale-to-fit-minmax.json"; sourceTree = "<group>"; };
+		3CC9460D265DDBDD006CCAD3 /* skottie-text-animator-fillstrokeopacity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-fillstrokeopacity.json"; sourceTree = "<group>"; };
+		3CC9460F265DDBDD006CCAD3 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		3CC94610265DDBDD006CCAD3 /* skottie-camera-parent-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-camera-parent-2.json"; sourceTree = "<group>"; };
+		3CC94611265DDBDD006CCAD3 /* skottie-trimpath-fill.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-trimpath-fill.json"; sourceTree = "<group>"; };
+		3CC94612265DDBDD006CCAD3 /* skottie-masking-opaque.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-masking-opaque.json"; sourceTree = "<group>"; };
+		3CC94613265DDBDD006CCAD3 /* skottie-glow-spread.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-glow-spread.json"; sourceTree = "<group>"; };
+		3CC94614265DDBDD006CCAD3 /* skottie-time-reverse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-time-reverse.json"; sourceTree = "<group>"; };
+		3CC94615265DDBDD006CCAD3 /* skottie-shift-channels-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-shift-channels-effect.json"; sourceTree = "<group>"; };
+		3CC94616265DDBDD006CCAD3 /* skottie-brightnesscontrast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-brightnesscontrast.json"; sourceTree = "<group>"; };
+		3CC94617265DDBDD006CCAD3 /* skottie-text-vertical-clip.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-vertical-clip.json"; sourceTree = "<group>"; };
+		3CC94618265DDBDD006CCAD3 /* skottie-mergepaths-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-mergepaths-effect.json"; sourceTree = "<group>"; };
+		3CC94619265DDBDD006CCAD3 /* skottie-sphere-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-sphere-effect.json"; sourceTree = "<group>"; };
+		3CC9461A265DDBDD006CCAD3 /* skottie-text-animator-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-3.json"; sourceTree = "<group>"; };
+		3CC9461B265DDBDD006CCAD3 /* skottie-text-animator-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-2.json"; sourceTree = "<group>"; };
+		3CC9461C265DDBDD006CCAD3 /* skottie-text-resize-to-fit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-resize-to-fit.json"; sourceTree = "<group>"; };
+		3CC9461D265DDBDD006CCAD3 /* skottie-camera-precomp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-camera-precomp.json"; sourceTree = "<group>"; };
+		3CC9461E265DDBDD006CCAD3 /* skottie-fractalnoise-basic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-basic.json"; sourceTree = "<group>"; };
+		3CC9461F265DDBDD006CCAD3 /* skottie-auto-orient.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-auto-orient.json"; sourceTree = "<group>"; };
+		3CC94620265DDBDD006CCAD3 /* skottie_sample_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skottie_sample_2.json; sourceTree = "<group>"; };
+		3CC94621265DDBDD006CCAD3 /* skottie-puckerbloat-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-puckerbloat-effect.json"; sourceTree = "<group>"; };
+		3CC94622265DDBDD006CCAD3 /* skottie-sphere-lighting-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-sphere-lighting-types.json"; sourceTree = "<group>"; };
+		3CC94623265DDBDD006CCAD3 /* skottie-huesaturation-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-huesaturation-effect.json"; sourceTree = "<group>"; };
+		3CC94624265DDBDD006CCAD3 /* skottie-motion-blur-ph-360.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-motion-blur-ph-360.json"; sourceTree = "<group>"; };
+		3CC94625265DDBDD006CCAD3 /* skottie-text-animator-linespacing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-linespacing.json"; sourceTree = "<group>"; };
+		3CC94626265DDBDD006CCAD3 /* skottie-motiontile-effect-phase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-motiontile-effect-phase.json"; sourceTree = "<group>"; };
+		3CC94627265DDBDD006CCAD3 /* skottie-matte-blendmode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-matte-blendmode.json"; sourceTree = "<group>"; };
+		3CC94628265DDBDD006CCAD3 /* skottie-displacement-rgba.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-displacement-rgba.json"; sourceTree = "<group>"; };
+		3CC94629265DDBDD006CCAD3 /* skottie-3d-3planes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-3d-3planes.json"; sourceTree = "<group>"; };
+		3CC9462A265DDBDD006CCAD3 /* skottie-camera-parent-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-camera-parent-3.json"; sourceTree = "<group>"; };
+		3CC9462B265DDBDD006CCAD3 /* skottie-fractalnoise-block.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-block.json"; sourceTree = "<group>"; };
+		3CC9462C265DDBDD006CCAD3 /* skottie-bezier-extranormal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-bezier-extranormal.json"; sourceTree = "<group>"; };
+		3CC9462D265DDBDD006CCAD3 /* skottie-sphere-controls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-sphere-controls.json"; sourceTree = "<group>"; };
+		3CC9462E265DDBDD006CCAD3 /* skottie-camera-rotation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-camera-rotation.json"; sourceTree = "<group>"; };
+		3CC9462F265DDBDD006CCAD3 /* skottie-text-animator-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-1.json"; sourceTree = "<group>"; };
+		3CC94630265DDBDD006CCAD3 /* skottie-displacement-lfho.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-displacement-lfho.json"; sourceTree = "<group>"; };
+		3CC94631265DDBDD006CCAD3 /* skottie-fractalnoise-softlinear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-softlinear.json"; sourceTree = "<group>"; };
+		3CC94632265DDBDD006CCAD3 /* skottie_sample_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skottie_sample_1.json; sourceTree = "<group>"; };
+		3CC94633265DDBDD006CCAD3 /* skottie-fractalnoise-sphere.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-sphere.json"; sourceTree = "<group>"; };
+		3CC94634265DDBDD006CCAD3 /* skottie-text-grouping-alignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-grouping-alignment.json"; sourceTree = "<group>"; };
+		3CC94635265DDBDD006CCAD3 /* skottie-3d-rotation-order.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-3d-rotation-order.json"; sourceTree = "<group>"; };
+		3CC94636265DDBDD006CCAD3 /* skottie-radial-wipe-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-radial-wipe-effect.json"; sourceTree = "<group>"; };
+		3CC94637265DDBDD006CCAD3 /* skottie-motion-blur-ph0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-motion-blur-ph0.json"; sourceTree = "<group>"; };
+		3CC94638265DDBDD006CCAD3 /* skottie-multi-range-selectors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-multi-range-selectors.json"; sourceTree = "<group>"; };
+		3CC94639265DDBDD006CCAD3 /* skottie-innerglow-style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-innerglow-style.json"; sourceTree = "<group>"; };
+		3CC9463A265DDBDD006CCAD3 /* skottie-fractalnoise-suboptions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-suboptions.json"; sourceTree = "<group>"; };
+		3CC9463B265DDBDD006CCAD3 /* skottie-mask-feather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-mask-feather.json"; sourceTree = "<group>"; };
+		3CC9463C265DDBDD006CCAD3 /* skottie-text-valign-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-valign-2.json"; sourceTree = "<group>"; };
+		3CC9463D265DDBDD006CCAD3 /* skottie-invert-effect-yiq.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-invert-effect-yiq.json"; sourceTree = "<group>"; };
+		3CC9463E265DDBDD006CCAD3 /* skottie-outerglow-style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-outerglow-style.json"; sourceTree = "<group>"; };
+		3CC9463F265DDBDD006CCAD3 /* skottie-effects-tranform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-effects-tranform.json"; sourceTree = "<group>"; };
+		3CC94640265DDBDD006CCAD3 /* skottie-camera-parent-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-camera-parent-1.json"; sourceTree = "<group>"; };
+		3CC94641265DDBDD006CCAD3 /* skottie-threshold-compositing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-threshold-compositing.json"; sourceTree = "<group>"; };
+		3CC94642265DDBDD006CCAD3 /* skottie-motiontile-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-motiontile-effect.json"; sourceTree = "<group>"; };
+		3CC94643265DDBDD006CCAD3 /* skottie-offsetpaths-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-offsetpaths-effect.json"; sourceTree = "<group>"; };
+		3CC94644265DDBDD006CCAD3 /* skottie-text-animator-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-7.json"; sourceTree = "<group>"; };
+		3CC94645265DDBDD006CCAD3 /* skottie-text-fill-over-stroke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-fill-over-stroke.json"; sourceTree = "<group>"; };
+		3CC94646265DDBDD006CCAD3 /* skottie-auto-orient-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-auto-orient-2.json"; sourceTree = "<group>"; };
+		3CC94647265DDBDD006CCAD3 /* skottie-3d-parenting-nocamera.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-3d-parenting-nocamera.json"; sourceTree = "<group>"; };
+		3CC94648265DDBDD006CCAD3 /* skottie-gradient-ramp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-gradient-ramp.json"; sourceTree = "<group>"; };
+		3CC94649265DDBDD006CCAD3 /* skottie-chained-mattes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-chained-mattes.json"; sourceTree = "<group>"; };
+		3CC9464A265DDBDD006CCAD3 /* skottie-displacement-tiling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-displacement-tiling.json"; sourceTree = "<group>"; };
+		3CC9464B265DDBDD006CCAD3 /* skottie-text-pointmode-scaletofit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-pointmode-scaletofit.json"; sourceTree = "<group>"; };
+		3CC9464C265DDBDD006CCAD3 /* skottie-corner-pin-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-corner-pin-effect.json"; sourceTree = "<group>"; };
+		3CC9464D265DDBDD006CCAD3 /* skottie-3d-parenting-camera.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-3d-parenting-camera.json"; sourceTree = "<group>"; };
+		3CC9464E265DDBDD006CCAD3 /* skottie-text-baseline-shift.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-baseline-shift.json"; sourceTree = "<group>"; };
+		3CC9464F265DDBDD006CCAD3 /* skottie-transform-skew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-transform-skew.json"; sourceTree = "<group>"; };
+		3CC94650265DDBDD006CCAD3 /* skottie-dropshadow-style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-dropshadow-style.json"; sourceTree = "<group>"; };
+		3CC94651265DDBDD006CCAD3 /* skottie-masking-translucent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-masking-translucent.json"; sourceTree = "<group>"; };
+		3CC94652265DDBDD006CCAD3 /* skottie-3d-2planes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-3d-2planes.json"; sourceTree = "<group>"; };
+		3CC94653265DDBDD006CCAD3 /* skottie-prolevels-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-prolevels-effect.json"; sourceTree = "<group>"; };
+		3CC94654265DDBDD006CCAD3 /* skottie-inline-fonts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-inline-fonts.json"; sourceTree = "<group>"; };
+		3CC94655265DDBDD006CCAD3 /* skottie-invert-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-invert-effect.json"; sourceTree = "<group>"; };
+		3CC94656265DDBDD006CCAD3 /* skottie-threshold-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-threshold-effect.json"; sourceTree = "<group>"; };
+		3CC94657265DDBDD006CCAD3 /* skottie-sphere-lighting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-sphere-lighting.json"; sourceTree = "<group>"; };
+		3CC94658265DDBDD006CCAD3 /* skottie_sample_search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skottie_sample_search.json; sourceTree = "<group>"; };
+		3CC94659265DDBDD006CCAD3 /* skottie-text-valign-bottom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-valign-bottom.json"; sourceTree = "<group>"; };
+		3CC9465A265DDBDD006CCAD3 /* skottie-luma-matte.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-luma-matte.json"; sourceTree = "<group>"; };
+		3CC9465B265DDBDD006CCAD3 /* skottie-levels-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-levels-effect.json"; sourceTree = "<group>"; };
+		3CC9465C265DDBDD006CCAD3 /* skottie_sample_webfont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skottie_sample_webfont.json; sourceTree = "<group>"; };
+		3CC9465D265DDBDD006CCAD3 /* skottie-brightnesscontrast-legacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-brightnesscontrast-legacy.json"; sourceTree = "<group>"; };
+		3CC9465E265DDBDD006CCAD3 /* skottie-motion-blur-mask.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-motion-blur-mask.json"; sourceTree = "<group>"; };
+		3CC9465F265DDBDD006CCAD3 /* skottie-text-pointmode-downscaletofit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-pointmode-downscaletofit.json"; sourceTree = "<group>"; };
+		3CC94660265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentbasic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-fractalnoise-turbulentbasic.json"; sourceTree = "<group>"; };
+		3CC94661265DDBDD006CCAD3 /* skottie-motion-blur-ph360.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-motion-blur-ph360.json"; sourceTree = "<group>"; };
+		3CC94662265DDBDD006CCAD3 /* skottie-text-animator-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-animator-6.json"; sourceTree = "<group>"; };
+		3CC94663265DDBDD006CCAD3 /* skottie-text-blur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "skottie-text-blur.json"; sourceTree = "<group>"; };
+		3CE63F29265DE7E90016B350 /* libskia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskia.a; sourceTree = "<group>"; };
+		3CE63F2A265DE7E90016B350 /* libskottie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskottie.a; sourceTree = "<group>"; };
+		3CE63F2F265DE8040016B350 /* SkSVGCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSVGCanvas.h; sourceTree = "<group>"; };
+		3CE63F31265DE8040016B350 /* GrContextThreadSafeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContextThreadSafeProxy.h; sourceTree = "<group>"; };
+		3CE63F32265DE8040016B350 /* GrDirectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDirectContext.h; sourceTree = "<group>"; };
+		3CE63F33265DE8040016B350 /* GrBackendSurfaceMutableState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendSurfaceMutableState.h; sourceTree = "<group>"; };
+		3CE63F34265DE8040016B350 /* GrBackendSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendSemaphore.h; sourceTree = "<group>"; };
+		3CE63F36265DE8040016B350 /* GrMockTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrMockTypes.h; sourceTree = "<group>"; };
+		3CE63F37265DE8040016B350 /* GrDriverBugWorkaroundsAutogen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDriverBugWorkaroundsAutogen.h; sourceTree = "<group>"; };
+		3CE63F38265DE8040016B350 /* GrTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrTypes.h; sourceTree = "<group>"; };
+		3CE63F3A265DE8040016B350 /* GrVkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkTypes.h; sourceTree = "<group>"; };
+		3CE63F3B265DE8040016B350 /* GrVkBackendContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkBackendContext.h; sourceTree = "<group>"; };
+		3CE63F3C265DE8040016B350 /* GrVkExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkExtensions.h; sourceTree = "<group>"; };
+		3CE63F3D265DE8040016B350 /* GrVkMemoryAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkMemoryAllocator.h; sourceTree = "<group>"; };
+		3CE63F3E265DE8040016B350 /* GrVkVulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkVulkan.h; sourceTree = "<group>"; };
+		3CE63F3F265DE8040016B350 /* GrConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrConfig.h; sourceTree = "<group>"; };
+		3CE63F40265DE8040016B350 /* GrDriverBugWorkarounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDriverBugWorkarounds.h; sourceTree = "<group>"; };
+		3CE63F41265DE8040016B350 /* GrContextOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContextOptions.h; sourceTree = "<group>"; };
+		3CE63F42265DE8040016B350 /* GrBackendDrawableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendDrawableInfo.h; sourceTree = "<group>"; };
+		3CE63F44265DE8040016B350 /* GrGLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLExtensions.h; sourceTree = "<group>"; };
+		3CE63F45265DE8040016B350 /* GrGLAssembleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLAssembleInterface.h; sourceTree = "<group>"; };
+		3CE63F46265DE8040016B350 /* GrGLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLTypes.h; sourceTree = "<group>"; };
+		3CE63F47265DE8040016B350 /* GrGLConfig_chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLConfig_chrome.h; sourceTree = "<group>"; };
+		3CE63F49265DE8040016B350 /* GrGLMakeEGLInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLMakeEGLInterface.h; sourceTree = "<group>"; };
+		3CE63F4A265DE8040016B350 /* GrGLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLConfig.h; sourceTree = "<group>"; };
+		3CE63F4B265DE8040016B350 /* GrGLFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLFunctions.h; sourceTree = "<group>"; };
+		3CE63F4D265DE8040016B350 /* GrGLMakeGLXInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLMakeGLXInterface.h; sourceTree = "<group>"; };
+		3CE63F4E265DE8040016B350 /* GrGLAssembleHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLAssembleHelpers.h; sourceTree = "<group>"; };
+		3CE63F4F265DE8040016B350 /* GrGLInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLInterface.h; sourceTree = "<group>"; };
+		3CE63F50265DE8040016B350 /* GrYUVABackendTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrYUVABackendTextures.h; sourceTree = "<group>"; };
+		3CE63F51265DE8040016B350 /* GrRecordingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrRecordingContext.h; sourceTree = "<group>"; };
+		3CE63F53265DE8040016B350 /* GrMtlTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrMtlTypes.h; sourceTree = "<group>"; };
+		3CE63F54265DE8040016B350 /* GrMtlBackendContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrMtlBackendContext.h; sourceTree = "<group>"; };
+		3CE63F55265DE8040016B350 /* GrBackendSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendSurface.h; sourceTree = "<group>"; };
+		3CE63F57265DE8040016B350 /* GrDawnTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDawnTypes.h; sourceTree = "<group>"; };
+		3CE63F59265DE8040016B350 /* GrD3DTypesMinimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DTypesMinimal.h; sourceTree = "<group>"; };
+		3CE63F5A265DE8040016B350 /* GrD3DBackendContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DBackendContext.h; sourceTree = "<group>"; };
+		3CE63F5B265DE8040016B350 /* GrD3DTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DTypes.h; sourceTree = "<group>"; };
+		3CE63F5D265DE8040016B350 /* SkImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImage.h; sourceTree = "<group>"; };
+		3CE63F5E265DE8040016B350 /* SkRRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRRect.h; sourceTree = "<group>"; };
+		3CE63F5F265DE8040016B350 /* SkMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMatrix.h; sourceTree = "<group>"; };
+		3CE63F60265DE8040016B350 /* SkColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorSpace.h; sourceTree = "<group>"; };
+		3CE63F61265DE8040016B350 /* SkPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPaint.h; sourceTree = "<group>"; };
+		3CE63F62265DE8040016B350 /* SkFontMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr.h; sourceTree = "<group>"; };
+		3CE63F63265DE8040016B350 /* SkCoverageMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCoverageMode.h; sourceTree = "<group>"; };
+		3CE63F64265DE8040016B350 /* SkImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageInfo.h; sourceTree = "<group>"; };
+		3CE63F65265DE8040016B350 /* SkStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkStream.h; sourceTree = "<group>"; };
+		3CE63F66265DE8040016B350 /* SkPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPicture.h; sourceTree = "<group>"; };
+		3CE63F67265DE8040016B350 /* SkContourMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkContourMeasure.h; sourceTree = "<group>"; };
+		3CE63F68265DE8040016B350 /* SkUnPreMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkUnPreMultiply.h; sourceTree = "<group>"; };
+		3CE63F69265DE8040016B350 /* SkPictureRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPictureRecorder.h; sourceTree = "<group>"; };
+		3CE63F6A265DE8040016B350 /* SkScalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScalar.h; sourceTree = "<group>"; };
+		3CE63F6B265DE8040016B350 /* SkEncodedImageFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncodedImageFormat.h; sourceTree = "<group>"; };
+		3CE63F6C265DE8040016B350 /* SkPngChunkReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPngChunkReader.h; sourceTree = "<group>"; };
+		3CE63F6D265DE8040016B350 /* SkBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlendMode.h; sourceTree = "<group>"; };
+		3CE63F6E265DE8040016B350 /* SkMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMaskFilter.h; sourceTree = "<group>"; };
+		3CE63F6F265DE8040016B350 /* SkCanvasVirtualEnforcer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCanvasVirtualEnforcer.h; sourceTree = "<group>"; };
+		3CE63F70265DE8040016B350 /* SkSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSwizzle.h; sourceTree = "<group>"; };
+		3CE63F71265DE8040016B350 /* SkMilestone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMilestone.h; sourceTree = "<group>"; };
+		3CE63F72265DE8040016B350 /* SkImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageFilter.h; sourceTree = "<group>"; };
+		3CE63F73265DE8040016B350 /* SkTraceMemoryDump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTraceMemoryDump.h; sourceTree = "<group>"; };
+		3CE63F74265DE8040016B350 /* SkPixelRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPixelRef.h; sourceTree = "<group>"; };
+		3CE63F75265DE8040016B350 /* SkPoint3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPoint3.h; sourceTree = "<group>"; };
+		3CE63F76265DE8040016B350 /* SkFontTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontTypes.h; sourceTree = "<group>"; };
+		3CE63F77265DE8040016B350 /* SkFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFont.h; sourceTree = "<group>"; };
+		3CE63F78265DE8040016B350 /* SkOverdrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOverdrawCanvas.h; sourceTree = "<group>"; };
+		3CE63F79265DE8040016B350 /* SkFontStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontStyle.h; sourceTree = "<group>"; };
+		3CE63F7A265DE8040016B350 /* SkSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSurface.h; sourceTree = "<group>"; };
+		3CE63F7B265DE8040016B350 /* SkSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSpan.h; sourceTree = "<group>"; };
+		3CE63F7C265DE8040016B350 /* SkShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShader.h; sourceTree = "<group>"; };
+		3CE63F7D265DE8040016B350 /* SkRSXform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRSXform.h; sourceTree = "<group>"; };
+		3CE63F7E265DE8040016B350 /* SkMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMath.h; sourceTree = "<group>"; };
+		3CE63F7F265DE8040016B350 /* SkClipOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkClipOp.h; sourceTree = "<group>"; };
+		3CE63F80265DE8040016B350 /* SkDrawLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDrawLooper.h; sourceTree = "<group>"; };
+		3CE63F81265DE8040016B350 /* SkSamplingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSamplingOptions.h; sourceTree = "<group>"; };
+		3CE63F82265DE8040016B350 /* SkStrokeRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkStrokeRec.h; sourceTree = "<group>"; };
+		3CE63F83265DE8040016B350 /* SkFontParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontParameters.h; sourceTree = "<group>"; };
+		3CE63F84265DE8040016B350 /* SkYUVAInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkYUVAInfo.h; sourceTree = "<group>"; };
+		3CE63F85265DE8040016B350 /* SkAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAnnotation.h; sourceTree = "<group>"; };
+		3CE63F86265DE8040016B350 /* SkYUVAPixmaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkYUVAPixmaps.h; sourceTree = "<group>"; };
+		3CE63F87265DE8040016B350 /* SkMallocPixelRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMallocPixelRef.h; sourceTree = "<group>"; };
+		3CE63F88265DE8040016B350 /* SkMatrix44.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMatrix44.h; sourceTree = "<group>"; };
+		3CE63F89265DE8040016B350 /* SkRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRect.h; sourceTree = "<group>"; };
+		3CE63F8A265DE8040016B350 /* SkPathBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathBuilder.h; sourceTree = "<group>"; };
+		3CE63F8B265DE8040016B350 /* SkDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDrawable.h; sourceTree = "<group>"; };
+		3CE63F8C265DE8040016B350 /* SkTileMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTileMode.h; sourceTree = "<group>"; };
+		3CE63F8D265DE8040016B350 /* SkTypeface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypeface.h; sourceTree = "<group>"; };
+		3CE63F8E265DE8040016B350 /* SkPathMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathMeasure.h; sourceTree = "<group>"; };
+		3CE63F8F265DE8040016B350 /* SkRasterHandleAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRasterHandleAllocator.h; sourceTree = "<group>"; };
+		3CE63F90265DE8040016B350 /* SkGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGraphics.h; sourceTree = "<group>"; };
+		3CE63F91265DE8040016B350 /* SkColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColor.h; sourceTree = "<group>"; };
+		3CE63F92265DE8040016B350 /* SkTextBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTextBlob.h; sourceTree = "<group>"; };
+		3CE63F93265DE8040016B350 /* SkString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkString.h; sourceTree = "<group>"; };
+		3CE63F94265DE8040016B350 /* SkDeferredDisplayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDeferredDisplayList.h; sourceTree = "<group>"; };
+		3CE63F95265DE8040016B350 /* SkCubicMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCubicMap.h; sourceTree = "<group>"; };
+		3CE63F96265DE8040016B350 /* SkICC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkICC.h; sourceTree = "<group>"; };
+		3CE63F97265DE8040016B350 /* SkPromiseImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPromiseImageTexture.h; sourceTree = "<group>"; };
+		3CE63F98265DE8040016B350 /* SkRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRegion.h; sourceTree = "<group>"; };
+		3CE63F99265DE8040016B350 /* SkDeferredDisplayListRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDeferredDisplayListRecorder.h; sourceTree = "<group>"; };
+		3CE63F9A265DE8040016B350 /* SkImageGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGenerator.h; sourceTree = "<group>"; };
+		3CE63F9B265DE8040016B350 /* SkCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCanvas.h; sourceTree = "<group>"; };
+		3CE63F9C265DE8040016B350 /* SkFilterQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFilterQuality.h; sourceTree = "<group>"; };
+		3CE63F9D265DE8040016B350 /* SkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkData.h; sourceTree = "<group>"; };
+		3CE63F9E265DE8040016B350 /* SkBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBitmap.h; sourceTree = "<group>"; };
+		3CE63F9F265DE8040016B350 /* SkColorPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorPriv.h; sourceTree = "<group>"; };
+		3CE63FA0265DE8040016B350 /* SkVertices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVertices.h; sourceTree = "<group>"; };
+		3CE63FA1265DE8040016B350 /* SkPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPath.h; sourceTree = "<group>"; };
+		3CE63FA2265DE8040016B350 /* SkSurfaceCharacterization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSurfaceCharacterization.h; sourceTree = "<group>"; };
+		3CE63FA3265DE8040016B350 /* SkFontArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontArguments.h; sourceTree = "<group>"; };
+		3CE63FA4265DE8040016B350 /* SkExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkExecutor.h; sourceTree = "<group>"; };
+		3CE63FA5265DE8040016B350 /* SkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypes.h; sourceTree = "<group>"; };
+		3CE63FA6265DE8040016B350 /* SkRefCnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRefCnt.h; sourceTree = "<group>"; };
+		3CE63FA7265DE8040016B350 /* SkDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataTable.h; sourceTree = "<group>"; };
+		3CE63FA8265DE8040016B350 /* SkColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorFilter.h; sourceTree = "<group>"; };
+		3CE63FA9265DE8040016B350 /* SkPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPoint.h; sourceTree = "<group>"; };
+		3CE63FAA265DE8040016B350 /* SkBBHFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBBHFactory.h; sourceTree = "<group>"; };
+		3CE63FAB265DE8040016B350 /* SkSerialProcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSerialProcs.h; sourceTree = "<group>"; };
+		3CE63FAC265DE8040016B350 /* SkPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathEffect.h; sourceTree = "<group>"; };
+		3CE63FAD265DE8040016B350 /* SkImageEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageEncoder.h; sourceTree = "<group>"; };
+		3CE63FAE265DE8040016B350 /* SkFontMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMetrics.h; sourceTree = "<group>"; };
+		3CE63FAF265DE8040016B350 /* SkPathTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathTypes.h; sourceTree = "<group>"; };
+		3CE63FB0265DE8040016B350 /* SkSurfaceProps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSurfaceProps.h; sourceTree = "<group>"; };
+		3CE63FB1265DE8040016B350 /* SkBlurTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurTypes.h; sourceTree = "<group>"; };
+		3CE63FB2265DE8040016B350 /* SkTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTime.h; sourceTree = "<group>"; };
+		3CE63FB3265DE8040016B350 /* SkDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDocument.h; sourceTree = "<group>"; };
+		3CE63FB4265DE8040016B350 /* SkM44.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkM44.h; sourceTree = "<group>"; };
+		3CE63FB5265DE8040016B350 /* SkFlattenable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFlattenable.h; sourceTree = "<group>"; };
+		3CE63FB6265DE8040016B350 /* SkSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSize.h; sourceTree = "<group>"; };
+		3CE63FB7265DE8040016B350 /* SkPixmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPixmap.h; sourceTree = "<group>"; };
+		3CE63FB9265DE8040016B350 /* SkPathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathOps.h; sourceTree = "<group>"; };
+		3CE63FBB265DE8040016B350 /* SkUserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkUserConfig.h; sourceTree = "<group>"; };
+		3CE63FBD265DE8040016B350 /* SkCodecAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCodecAnimation.h; sourceTree = "<group>"; };
+		3CE63FBE265DE8040016B350 /* SkEncodedOrigin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncodedOrigin.h; sourceTree = "<group>"; };
+		3CE63FBF265DE8040016B350 /* SkCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCodec.h; sourceTree = "<group>"; };
+		3CE63FC0265DE8040016B350 /* SkAndroidCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAndroidCodec.h; sourceTree = "<group>"; };
+		3CE63FC2265DE8040016B350 /* DSLWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLWrapper.h; sourceTree = "<group>"; };
+		3CE63FC3265DE8040016B350 /* DSLErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLErrorHandling.h; sourceTree = "<group>"; };
+		3CE63FC4265DE8040016B350 /* DSLCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCase.h; sourceTree = "<group>"; };
+		3CE63FC5265DE8040016B350 /* DSLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLExpression.h; sourceTree = "<group>"; };
+		3CE63FC6265DE8040016B350 /* DSLRuntimeEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLRuntimeEffects.h; sourceTree = "<group>"; };
+		3CE63FC7265DE8040016B350 /* DSLLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLLayout.h; sourceTree = "<group>"; };
+		3CE63FC8265DE8040016B350 /* DSLCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCore.h; sourceTree = "<group>"; };
+		3CE63FC9265DE8040016B350 /* DSLVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLVar.h; sourceTree = "<group>"; };
+		3CE63FCA265DE8040016B350 /* DSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSL.h; sourceTree = "<group>"; };
+		3CE63FCB265DE8040016B350 /* DSLType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLType.h; sourceTree = "<group>"; };
+		3CE63FCC265DE8040016B350 /* DSLModifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLModifiers.h; sourceTree = "<group>"; };
+		3CE63FCD265DE8040016B350 /* DSLFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLFunction.h; sourceTree = "<group>"; };
+		3CE63FCE265DE8040016B350 /* DSLBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLBlock.h; sourceTree = "<group>"; };
+		3CE63FCF265DE8040016B350 /* DSLStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLStatement.h; sourceTree = "<group>"; };
+		3CE63FD1265DE8040016B350 /* SkJpegEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkJpegEncoder.h; sourceTree = "<group>"; };
+		3CE63FD2265DE8040016B350 /* SkWebpEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkWebpEncoder.h; sourceTree = "<group>"; };
+		3CE63FD3265DE8040016B350 /* SkEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncoder.h; sourceTree = "<group>"; };
+		3CE63FD4265DE8040016B350 /* SkPngEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPngEncoder.h; sourceTree = "<group>"; };
+		3CE63FD6265DE8040016B350 /* SkNoDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNoDrawCanvas.h; sourceTree = "<group>"; };
+		3CE63FD7265DE8040016B350 /* SkTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTextUtils.h; sourceTree = "<group>"; };
+		3CE63FD8265DE8040016B350 /* SkNullCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNullCanvas.h; sourceTree = "<group>"; };
+		3CE63FD9265DE8040016B350 /* SkCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCamera.h; sourceTree = "<group>"; };
+		3CE63FDA265DE8040016B350 /* SkCustomTypeface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCustomTypeface.h; sourceTree = "<group>"; };
+		3CE63FDB265DE8040016B350 /* SkBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBase64.h; sourceTree = "<group>"; };
+		3CE63FDC265DE8040016B350 /* SkAnimCodecPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAnimCodecPlayer.h; sourceTree = "<group>"; };
+		3CE63FDD265DE8040016B350 /* SkParsePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkParsePath.h; sourceTree = "<group>"; };
+		3CE63FDE265DE8040016B350 /* SkCanvasStateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCanvasStateUtils.h; sourceTree = "<group>"; };
+		3CE63FDF265DE8040016B350 /* SkEventTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEventTracer.h; sourceTree = "<group>"; };
+		3CE63FE1265DE8040016B350 /* SkCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCGUtils.h; sourceTree = "<group>"; };
+		3CE63FE2265DE8040016B350 /* SkRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRandom.h; sourceTree = "<group>"; };
+		3CE63FE3265DE8040016B350 /* SkOrderedFontMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOrderedFontMgr.h; sourceTree = "<group>"; };
+		3CE63FE4265DE8040016B350 /* SkPaintFilterCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPaintFilterCanvas.h; sourceTree = "<group>"; };
+		3CE63FE5265DE8040016B350 /* SkParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkParse.h; sourceTree = "<group>"; };
+		3CE63FE6265DE8040016B350 /* SkTraceEventPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTraceEventPhase.h; sourceTree = "<group>"; };
+		3CE63FE7265DE8040016B350 /* SkShadowUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShadowUtils.h; sourceTree = "<group>"; };
+		3CE63FE8265DE8040016B350 /* SkNWayCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNWayCanvas.h; sourceTree = "<group>"; };
+		3CE63FEA265DE8040016B350 /* SkPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPDFDocument.h; sourceTree = "<group>"; };
+		3CE63FEB265DE8040016B350 /* SkXPSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkXPSDocument.h; sourceTree = "<group>"; };
+		3CE63FEE265DE8040016B350 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3CE63FEF265DE8040016B350 /* skcms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skcms.h; sourceTree = "<group>"; };
+		3CE63FF1265DE8040016B350 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3CE63FF3265DE8040016B350 /* vulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan.h; sourceTree = "<group>"; };
+		3CE63FF4265DE8040016B350 /* vk_platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vk_platform.h; sourceTree = "<group>"; };
+		3CE63FF5265DE8040016B350 /* vulkan_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_win32.h; sourceTree = "<group>"; };
+		3CE63FF6265DE8040016B350 /* vulkan_macos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_macos.h; sourceTree = "<group>"; };
+		3CE63FF7265DE8040016B350 /* vulkan_xcb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_xcb.h; sourceTree = "<group>"; };
+		3CE63FF8265DE8040016B350 /* vulkan_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_ios.h; sourceTree = "<group>"; };
+		3CE63FF9265DE8040016B350 /* vulkan_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_core.h; sourceTree = "<group>"; };
+		3CE63FFA265DE8040016B350 /* vulkan_android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_android.h; sourceTree = "<group>"; };
+		3CE63FFC265DE8040016B350 /* SkNx_sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNx_sse.h; sourceTree = "<group>"; };
+		3CE63FFD265DE8040016B350 /* GrMtlTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrMtlTypesPriv.h; sourceTree = "<group>"; };
+		3CE63FFE265DE8040016B350 /* SkSLStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLStatement.h; sourceTree = "<group>"; };
+		3CE63FFF265DE8040016B350 /* SkColorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorData.h; sourceTree = "<group>"; };
+		3CE64000265DE8040016B350 /* SkSafe32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSafe32.h; sourceTree = "<group>"; };
+		3CE64001265DE8040016B350 /* GrResourceKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrResourceKey.h; sourceTree = "<group>"; };
+		3CE64002265DE8040016B350 /* SkSLIRNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLIRNode.h; sourceTree = "<group>"; };
+		3CE64003265DE8040016B350 /* SkFloatingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFloatingPoint.h; sourceTree = "<group>"; };
+		3CE64004265DE8040016B350 /* SkMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMutex.h; sourceTree = "<group>"; };
+		3CE64005265DE8040016B350 /* SkThreadAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkThreadAnnotations.h; sourceTree = "<group>"; };
+		3CE64006265DE8040016B350 /* SkSLLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLLayout.h; sourceTree = "<group>"; };
+		3CE64007265DE8040016B350 /* SkPathRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathRef.h; sourceTree = "<group>"; };
+		3CE64008265DE8040016B350 /* SkTemplates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTemplates.h; sourceTree = "<group>"; };
+		3CE64009265DE8040016B350 /* SkWeakRefCnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkWeakRefCnt.h; sourceTree = "<group>"; };
+		3CE6400A265DE8040016B350 /* SkSLModifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLModifiers.h; sourceTree = "<group>"; };
+		3CE6400B265DE8040016B350 /* SkDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDeque.h; sourceTree = "<group>"; };
+		3CE6400C265DE8040016B350 /* SkMalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMalloc.h; sourceTree = "<group>"; };
+		3CE6400D265DE8040016B350 /* SkTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTo.h; sourceTree = "<group>"; };
+		3CE6400E265DE8040016B350 /* SkOnce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOnce.h; sourceTree = "<group>"; };
+		3CE6400F265DE8040016B350 /* SkSLProgramKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLProgramKind.h; sourceTree = "<group>"; };
+		3CE64010265DE8040016B350 /* SkSLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLString.h; sourceTree = "<group>"; };
+		3CE64011265DE8040016B350 /* SkImageInfoPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageInfoPriv.h; sourceTree = "<group>"; };
+		3CE64012265DE8040016B350 /* SkSpinlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSpinlock.h; sourceTree = "<group>"; };
+		3CE64013265DE8040016B350 /* GrImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrImageContext.h; sourceTree = "<group>"; };
+		3CE64014265DE8040016B350 /* SkTHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTHash.h; sourceTree = "<group>"; };
+		3CE64015265DE8040016B350 /* SkNoncopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNoncopyable.h; sourceTree = "<group>"; };
+		3CE64016265DE8040016B350 /* SkNx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNx.h; sourceTree = "<group>"; };
+		3CE64017265DE8040016B350 /* GrSingleOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrSingleOwner.h; sourceTree = "<group>"; };
+		3CE64018265DE8040016B350 /* GrTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrTypesPriv.h; sourceTree = "<group>"; };
+		3CE64019265DE8040016B350 /* SkVx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVx.h; sourceTree = "<group>"; };
+		3CE6401A265DE8040016B350 /* GrGLTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLTypesPriv.h; sourceTree = "<group>"; };
+		3CE6401B265DE8040016B350 /* SkSafe_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSafe_math.h; sourceTree = "<group>"; };
+		3CE6401C265DE8040016B350 /* SkTDArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTDArray.h; sourceTree = "<group>"; };
+		3CE6401D265DE8040016B350 /* SkSLProgramElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLProgramElement.h; sourceTree = "<group>"; };
+		3CE6401E265DE8040016B350 /* SkShadowFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShadowFlags.h; sourceTree = "<group>"; };
+		3CE6401F265DE8040016B350 /* GrD3DTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DTypesPriv.h; sourceTree = "<group>"; };
+		3CE64020265DE8040016B350 /* SkOpts_spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOpts_spi.h; sourceTree = "<group>"; };
+		3CE64021265DE8040016B350 /* SkTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTArray.h; sourceTree = "<group>"; };
+		3CE64022265DE8040016B350 /* SkTLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTLogic.h; sourceTree = "<group>"; };
+		3CE64023265DE8040016B350 /* SkBitmaskEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBitmaskEnum.h; sourceTree = "<group>"; };
+		3CE64024265DE8040016B350 /* SkSLSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLSymbol.h; sourceTree = "<group>"; };
+		3CE64025265DE8040016B350 /* GrSharedEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrSharedEnums.h; sourceTree = "<group>"; };
+		3CE64026265DE8040016B350 /* GrContext_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContext_Base.h; sourceTree = "<group>"; };
+		3CE64027265DE8040016B350 /* SkThreadID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkThreadID.h; sourceTree = "<group>"; };
+		3CE64028265DE8040016B350 /* SkChecksum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkChecksum.h; sourceTree = "<group>"; };
+		3CE64029265DE8040016B350 /* SkEncodedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncodedInfo.h; sourceTree = "<group>"; };
+		3CE6402A265DE8040016B350 /* SkFloatBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFloatBits.h; sourceTree = "<group>"; };
+		3CE6402B265DE8040016B350 /* SkTFitsIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTFitsIn.h; sourceTree = "<group>"; };
+		3CE6402C265DE8040016B350 /* SkMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMacros.h; sourceTree = "<group>"; };
+		3CE6402D265DE8040016B350 /* SkNx_neon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNx_neon.h; sourceTree = "<group>"; };
+		3CE6402E265DE8040016B350 /* SkTPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTPin.h; sourceTree = "<group>"; };
+		3CE6402F265DE8040016B350 /* SkSLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLDefines.h; sourceTree = "<group>"; };
+		3CE64030265DE8040016B350 /* SkFixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFixed.h; sourceTree = "<group>"; };
+		3CE64031265DE8040016B350 /* SkSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSemaphore.h; sourceTree = "<group>"; };
+		3CE64032265DE8040016B350 /* SkIDChangeListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkIDChangeListener.h; sourceTree = "<group>"; };
+		3CE64033265DE8040016B350 /* SkHalf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHalf.h; sourceTree = "<group>"; };
+		3CE64034265DE8040016B350 /* GrVkTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkTypesPriv.h; sourceTree = "<group>"; };
+		3CE64035265DE8040016B350 /* SkSLSampleUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSLSampleUsage.h; sourceTree = "<group>"; };
+		3CE64037265DE8040016B350 /* SkAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAnimatedImage.h; sourceTree = "<group>"; };
+		3CE64038265DE8040016B350 /* SkAndroidFrameworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAndroidFrameworkUtils.h; sourceTree = "<group>"; };
+		3CE6403A265DE8040016B350 /* SkShaderMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShaderMaskFilter.h; sourceTree = "<group>"; };
+		3CE6403B265DE8040016B350 /* Sk1DPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sk1DPathEffect.h; sourceTree = "<group>"; };
+		3CE6403C265DE8040016B350 /* SkDashPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDashPathEffect.h; sourceTree = "<group>"; };
+		3CE6403D265DE8040016B350 /* SkColorMatrixFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorMatrixFilter.h; sourceTree = "<group>"; };
+		3CE6403E265DE8040016B350 /* SkGradientShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGradientShader.h; sourceTree = "<group>"; };
+		3CE6403F265DE8040016B350 /* SkOpPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOpPathEffect.h; sourceTree = "<group>"; };
+		3CE64040265DE8040016B350 /* SkTableMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTableMaskFilter.h; sourceTree = "<group>"; };
+		3CE64041265DE8040016B350 /* SkColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorMatrix.h; sourceTree = "<group>"; };
+		3CE64042265DE8040016B350 /* SkPerlinNoiseShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPerlinNoiseShader.h; sourceTree = "<group>"; };
+		3CE64043265DE8040016B350 /* SkStrokeAndFillPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkStrokeAndFillPathEffect.h; sourceTree = "<group>"; };
+		3CE64044265DE8040016B350 /* SkCornerPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCornerPathEffect.h; sourceTree = "<group>"; };
+		3CE64045265DE8040016B350 /* SkOverdrawColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOverdrawColorFilter.h; sourceTree = "<group>"; };
+		3CE64046265DE8040016B350 /* SkDiscretePathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDiscretePathEffect.h; sourceTree = "<group>"; };
+		3CE64047265DE8040016B350 /* SkBlurMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurMaskFilter.h; sourceTree = "<group>"; };
+		3CE64048265DE8040016B350 /* SkLumaColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLumaColorFilter.h; sourceTree = "<group>"; };
+		3CE64049265DE8040016B350 /* SkTableColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTableColorFilter.h; sourceTree = "<group>"; };
+		3CE6404A265DE8040016B350 /* SkRuntimeEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRuntimeEffect.h; sourceTree = "<group>"; };
+		3CE6404B265DE8040016B350 /* SkTrimPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTrimPathEffect.h; sourceTree = "<group>"; };
+		3CE6404C265DE8040016B350 /* SkImageFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageFilters.h; sourceTree = "<group>"; };
+		3CE6404D265DE8040016B350 /* Sk2DPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sk2DPathEffect.h; sourceTree = "<group>"; };
+		3CE6404E265DE8040016B350 /* SkLayerDrawLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLayerDrawLooper.h; sourceTree = "<group>"; };
+		3CE6404F265DE8040016B350 /* SkBlurDrawLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurDrawLooper.h; sourceTree = "<group>"; };
+		3CE64050265DE8040016B350 /* SkHighContrastFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHighContrastFilter.h; sourceTree = "<group>"; };
+		3CE64052265DE8040016B350 /* SkFontMgr_directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_directory.h; sourceTree = "<group>"; };
+		3CE64053265DE8040016B350 /* SkFontMgr_indirect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_indirect.h; sourceTree = "<group>"; };
+		3CE64054265DE8040016B350 /* SkImageGeneratorWIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGeneratorWIC.h; sourceTree = "<group>"; };
+		3CE64055265DE8040016B350 /* SkFontConfigInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontConfigInterface.h; sourceTree = "<group>"; };
+		3CE64056265DE8040016B350 /* SkFontMgr_empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_empty.h; sourceTree = "<group>"; };
+		3CE64057265DE8040016B350 /* SkTypeface_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypeface_win.h; sourceTree = "<group>"; };
+		3CE64058265DE8040016B350 /* SkTypeface_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypeface_mac.h; sourceTree = "<group>"; };
+		3CE64059265DE8040016B350 /* SkRemotableFontMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRemotableFontMgr.h; sourceTree = "<group>"; };
+		3CE6405A265DE8040016B350 /* SkFontMgr_fuchsia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_fuchsia.h; sourceTree = "<group>"; };
+		3CE6405B265DE8040016B350 /* SkImageGeneratorCG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGeneratorCG.h; sourceTree = "<group>"; };
+		3CE6405C265DE8040016B350 /* SkFontMgr_fontconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_fontconfig.h; sourceTree = "<group>"; };
+		3CE6405D265DE8040016B350 /* SkCFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCFObject.h; sourceTree = "<group>"; };
+		3CE6405E265DE8040016B350 /* SkFontMgr_mac_ct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_mac_ct.h; sourceTree = "<group>"; };
+		3CE6405F265DE8040016B350 /* SkImageGeneratorNDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGeneratorNDK.h; sourceTree = "<group>"; };
+		3CE64060265DE8040016B350 /* SkFontMgr_android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_android.h; sourceTree = "<group>"; };
+		3CE64061265DE8040016B350 /* SkFontMgr_FontConfigInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_FontConfigInterface.h; sourceTree = "<group>"; };
+		3CE64063265DE8040016B350 /* sk_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_matrix.h; sourceTree = "<group>"; };
+		3CE64064265DE8040016B350 /* sk_path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_path.h; sourceTree = "<group>"; };
+		3CE64065265DE8040016B350 /* sk_colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_colorspace.h; sourceTree = "<group>"; };
+		3CE64066265DE8040016B350 /* sk_maskfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_maskfilter.h; sourceTree = "<group>"; };
+		3CE64067265DE8040016B350 /* sk_shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_shader.h; sourceTree = "<group>"; };
+		3CE64068265DE8040016B350 /* sk_imageinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_imageinfo.h; sourceTree = "<group>"; };
+		3CE64069265DE8040016B350 /* sk_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_data.h; sourceTree = "<group>"; };
+		3CE6406A265DE8040016B350 /* sk_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_image.h; sourceTree = "<group>"; };
+		3CE6406B265DE8040016B350 /* sk_paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_paint.h; sourceTree = "<group>"; };
+		3CE6406C265DE8040016B350 /* sk_surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_surface.h; sourceTree = "<group>"; };
+		3CE6406D265DE8040016B350 /* sk_picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_picture.h; sourceTree = "<group>"; };
+		3CE6406E265DE8040016B350 /* sk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_types.h; sourceTree = "<group>"; };
+		3CE6406F265DE8050016B350 /* sk_canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_canvas.h; sourceTree = "<group>"; };
+		3CE64075265DE87B0016B350 /* ExternalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalLayer.h; sourceTree = "<group>"; };
+		3CE64076265DE87B0016B350 /* SkottieProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkottieProperty.h; sourceTree = "<group>"; };
+		3CE64077265DE87B0016B350 /* Skottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skottie.h; sourceTree = "<group>"; };
+		3CE6407A265DE8FF0016B350 /* SkottieShaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkottieShaper.h; sourceTree = "<group>"; };
+		3CE6407D265DE9420016B350 /* SkResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkResources.h; sourceTree = "<group>"; };
+		3CE6407F265DEA990016B350 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		3CE64080265DEA990016B350 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		3CE64083265DEABB0016B350 /* libsksg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsksg.a; sourceTree = "<group>"; };
+		3CE64087265DEADB0016B350 /* libskshaper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskshaper.a; sourceTree = "<group>"; };
+		3CE64089265DEC490016B350 /* PreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		3CE6408A265DEC490016B350 /* PreviewViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PreviewViewController.mm; sourceTree = "<group>"; };
+		3CE6408D265E079A0016B350 /* SkiaGLContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaGLContext.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC945B7265DD989006CCAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE63F2B265DE7E90016B350 /* libskia.a in Frameworks */,
+				3CE64088265DEADB0016B350 /* libskshaper.a in Frameworks */,
+				3CE64082265DEA990016B350 /* MetalKit.framework in Frameworks */,
+				3CE64081265DEA990016B350 /* Metal.framework in Frameworks */,
+				3CE63F2C265DE7E90016B350 /* libskottie.a in Frameworks */,
+				3CE64084265DEABB0016B350 /* libsksg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC945B1265DD989006CCAD3 = {
+			isa = PBXGroup;
+			children = (
+				3CC945BC265DD989006CCAD3 /* skottie_ios_app */,
+				3CC945BB265DD989006CCAD3 /* Products */,
+				3CE6407E265DEA990016B350 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC945BB265DD989006CCAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC945BA265DD989006CCAD3 /* skottie_ios_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC945BC265DD989006CCAD3 /* skottie_ios_app */ = {
+			isa = PBXGroup;
+			children = (
+				3CC945F0265DDBDC006CCAD3 /* skottie */,
+				3CC945EF265DDB2A006CCAD3 /* Skia */,
+				3CC945D6265DDA1A006CCAD3 /* Classes */,
+				3CC945BD265DD989006CCAD3 /* AppDelegate.h */,
+				3CC945BE265DD989006CCAD3 /* AppDelegate.m */,
+				3CC945C3265DD989006CCAD3 /* ViewController.h */,
+				3CC945C4265DD989006CCAD3 /* ViewController.m */,
+				3CC945C9265DD98E006CCAD3 /* Assets.xcassets */,
+				3CC945CB265DD98E006CCAD3 /* LaunchScreen.storyboard */,
+				3CC945CE265DD98E006CCAD3 /* Info.plist */,
+				3CC945CF265DD98E006CCAD3 /* main.m */,
+			);
+			path = skottie_ios_app;
+			sourceTree = "<group>";
+		};
+		3CC945D6265DDA1A006CCAD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CC945D7265DDA28006CCAD3 /* GrContextHolder.h */,
+				3CC945DA265DDA28006CCAD3 /* GrContextHolder.mm */,
+				3CC945DD265DDA28006CCAD3 /* SkiaContext.h */,
+				3CC945DE265DDA28006CCAD3 /* SkiaContext.mm */,
+				3CC945DB265DDA28006CCAD3 /* SkiaMetalContext.mm */,
+				3CE6408D265E079A0016B350 /* SkiaGLContext.mm */,
+				3CC945E2265DDA29006CCAD3 /* SkiaUIContext.mm */,
+				3CC945DC265DDA28006CCAD3 /* SkiaViewController.h */,
+				3CC945DF265DDA28006CCAD3 /* SkiaViewController.mm */,
+				3CC945E0265DDA28006CCAD3 /* SkMetalViewBridge.h */,
+				3CC945D9265DDA28006CCAD3 /* SkMetalViewBridge.mm */,
+				3CC945E3265DDA29006CCAD3 /* SkottieViewController.h */,
+				3CC945D8265DDA28006CCAD3 /* SkottieViewController.mm */,
+				3CC945EC265DDA54006CCAD3 /* AppViewController.h */,
+				3CC945ED265DDA54006CCAD3 /* AppViewController.m */,
+				3CE64089265DEC490016B350 /* PreviewViewController.h */,
+				3CE6408A265DEC490016B350 /* PreviewViewController.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3CC945EF265DDB2A006CCAD3 /* Skia */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64072265DE86B0016B350 /* modules */,
+				3CE63F2D265DE8040016B350 /* include */,
+				3CE63F28265DE7E10016B350 /* lib */,
+			);
+			path = Skia;
+			sourceTree = "<group>";
+		};
+		3CC945F0265DDBDC006CCAD3 /* skottie */ = {
+			isa = PBXGroup;
+			children = (
+				3CC945F1265DDBDC006CCAD3 /* skottie-nested-animation.json */,
+				3CC945F2265DDBDC006CCAD3 /* skottie-fill-effect.json */,
+				3CC945F3265DDBDC006CCAD3 /* skottie-venetianblinds-effect.json */,
+				3CC945F4265DDBDC006CCAD3 /* skottie-camera-one-node.json */,
+				3CC945F5265DDBDC006CCAD3 /* skottie-tritone-effect.json */,
+				3CC945F6265DDBDC006CCAD3 /* skottie-hidden-shapes-layers.json */,
+				3CC945F7265DDBDC006CCAD3 /* skottie-text-animator-5.json */,
+				3CC945F8265DDBDC006CCAD3 /* skottie-linear-wipe-effect.json */,
+				3CC945F9265DDBDC006CCAD3 /* skottie-repeater.json */,
+				3CC945FA265DDBDC006CCAD3 /* skottie_sample_multiframe.json */,
+				3CC945FB265DDBDC006CCAD3 /* skottie-text-valign.json */,
+				3CC945FC265DDBDD006CCAD3 /* skottie-fractalnoise-linear.json */,
+				3CC945FD265DDBDD006CCAD3 /* skottie-gradient-opacity.json */,
+				3CC945FE265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentsmooth.json */,
+				3CC945FF265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentsharp.json */,
+				3CC94600265DDBDD006CCAD3 /* skottie-text-animator-8.json */,
+				3CC94601265DDBDD006CCAD3 /* skottie-innershadow-style.json */,
+				3CC94602265DDBDD006CCAD3 /* skottie-text-grouping-alignment-2.json */,
+				3CC94603265DDBDD006CCAD3 /* skottie-text-perchar-3d.json */,
+				3CC94604265DDBDD006CCAD3 /* skottie-text-scale-to-fit.json */,
+				3CC94605265DDBDD006CCAD3 /* skottie-displacement-hsla.json */,
+				3CC94606265DDBDD006CCAD3 /* skottie-trimpath-modes.json */,
+				3CC94607265DDBDD006CCAD3 /* skottie-text-valign-scaletofit.json */,
+				3CC94608265DDBDD006CCAD3 /* skottie-blackandwhite-effect.json */,
+				3CC94609265DDBDD006CCAD3 /* skottie-line-height.json */,
+				3CC9460A265DDBDD006CCAD3 /* skottie-text-animator-4.json */,
+				3CC9460B265DDBDD006CCAD3 /* skottie-transform-effect.json */,
+				3CC9460C265DDBDD006CCAD3 /* skottie-text-scale-to-fit-minmax.json */,
+				3CC9460D265DDBDD006CCAD3 /* skottie-text-animator-fillstrokeopacity.json */,
+				3CC9460E265DDBDD006CCAD3 /* images */,
+				3CC94610265DDBDD006CCAD3 /* skottie-camera-parent-2.json */,
+				3CC94611265DDBDD006CCAD3 /* skottie-trimpath-fill.json */,
+				3CC94612265DDBDD006CCAD3 /* skottie-masking-opaque.json */,
+				3CC94613265DDBDD006CCAD3 /* skottie-glow-spread.json */,
+				3CC94614265DDBDD006CCAD3 /* skottie-time-reverse.json */,
+				3CC94615265DDBDD006CCAD3 /* skottie-shift-channels-effect.json */,
+				3CC94616265DDBDD006CCAD3 /* skottie-brightnesscontrast.json */,
+				3CC94617265DDBDD006CCAD3 /* skottie-text-vertical-clip.json */,
+				3CC94618265DDBDD006CCAD3 /* skottie-mergepaths-effect.json */,
+				3CC94619265DDBDD006CCAD3 /* skottie-sphere-effect.json */,
+				3CC9461A265DDBDD006CCAD3 /* skottie-text-animator-3.json */,
+				3CC9461B265DDBDD006CCAD3 /* skottie-text-animator-2.json */,
+				3CC9461C265DDBDD006CCAD3 /* skottie-text-resize-to-fit.json */,
+				3CC9461D265DDBDD006CCAD3 /* skottie-camera-precomp.json */,
+				3CC9461E265DDBDD006CCAD3 /* skottie-fractalnoise-basic.json */,
+				3CC9461F265DDBDD006CCAD3 /* skottie-auto-orient.json */,
+				3CC94620265DDBDD006CCAD3 /* skottie_sample_2.json */,
+				3CC94621265DDBDD006CCAD3 /* skottie-puckerbloat-effect.json */,
+				3CC94622265DDBDD006CCAD3 /* skottie-sphere-lighting-types.json */,
+				3CC94623265DDBDD006CCAD3 /* skottie-huesaturation-effect.json */,
+				3CC94624265DDBDD006CCAD3 /* skottie-motion-blur-ph-360.json */,
+				3CC94625265DDBDD006CCAD3 /* skottie-text-animator-linespacing.json */,
+				3CC94626265DDBDD006CCAD3 /* skottie-motiontile-effect-phase.json */,
+				3CC94627265DDBDD006CCAD3 /* skottie-matte-blendmode.json */,
+				3CC94628265DDBDD006CCAD3 /* skottie-displacement-rgba.json */,
+				3CC94629265DDBDD006CCAD3 /* skottie-3d-3planes.json */,
+				3CC9462A265DDBDD006CCAD3 /* skottie-camera-parent-3.json */,
+				3CC9462B265DDBDD006CCAD3 /* skottie-fractalnoise-block.json */,
+				3CC9462C265DDBDD006CCAD3 /* skottie-bezier-extranormal.json */,
+				3CC9462D265DDBDD006CCAD3 /* skottie-sphere-controls.json */,
+				3CC9462E265DDBDD006CCAD3 /* skottie-camera-rotation.json */,
+				3CC9462F265DDBDD006CCAD3 /* skottie-text-animator-1.json */,
+				3CC94630265DDBDD006CCAD3 /* skottie-displacement-lfho.json */,
+				3CC94631265DDBDD006CCAD3 /* skottie-fractalnoise-softlinear.json */,
+				3CC94632265DDBDD006CCAD3 /* skottie_sample_1.json */,
+				3CC94633265DDBDD006CCAD3 /* skottie-fractalnoise-sphere.json */,
+				3CC94634265DDBDD006CCAD3 /* skottie-text-grouping-alignment.json */,
+				3CC94635265DDBDD006CCAD3 /* skottie-3d-rotation-order.json */,
+				3CC94636265DDBDD006CCAD3 /* skottie-radial-wipe-effect.json */,
+				3CC94637265DDBDD006CCAD3 /* skottie-motion-blur-ph0.json */,
+				3CC94638265DDBDD006CCAD3 /* skottie-multi-range-selectors.json */,
+				3CC94639265DDBDD006CCAD3 /* skottie-innerglow-style.json */,
+				3CC9463A265DDBDD006CCAD3 /* skottie-fractalnoise-suboptions.json */,
+				3CC9463B265DDBDD006CCAD3 /* skottie-mask-feather.json */,
+				3CC9463C265DDBDD006CCAD3 /* skottie-text-valign-2.json */,
+				3CC9463D265DDBDD006CCAD3 /* skottie-invert-effect-yiq.json */,
+				3CC9463E265DDBDD006CCAD3 /* skottie-outerglow-style.json */,
+				3CC9463F265DDBDD006CCAD3 /* skottie-effects-tranform.json */,
+				3CC94640265DDBDD006CCAD3 /* skottie-camera-parent-1.json */,
+				3CC94641265DDBDD006CCAD3 /* skottie-threshold-compositing.json */,
+				3CC94642265DDBDD006CCAD3 /* skottie-motiontile-effect.json */,
+				3CC94643265DDBDD006CCAD3 /* skottie-offsetpaths-effect.json */,
+				3CC94644265DDBDD006CCAD3 /* skottie-text-animator-7.json */,
+				3CC94645265DDBDD006CCAD3 /* skottie-text-fill-over-stroke.json */,
+				3CC94646265DDBDD006CCAD3 /* skottie-auto-orient-2.json */,
+				3CC94647265DDBDD006CCAD3 /* skottie-3d-parenting-nocamera.json */,
+				3CC94648265DDBDD006CCAD3 /* skottie-gradient-ramp.json */,
+				3CC94649265DDBDD006CCAD3 /* skottie-chained-mattes.json */,
+				3CC9464A265DDBDD006CCAD3 /* skottie-displacement-tiling.json */,
+				3CC9464B265DDBDD006CCAD3 /* skottie-text-pointmode-scaletofit.json */,
+				3CC9464C265DDBDD006CCAD3 /* skottie-corner-pin-effect.json */,
+				3CC9464D265DDBDD006CCAD3 /* skottie-3d-parenting-camera.json */,
+				3CC9464E265DDBDD006CCAD3 /* skottie-text-baseline-shift.json */,
+				3CC9464F265DDBDD006CCAD3 /* skottie-transform-skew.json */,
+				3CC94650265DDBDD006CCAD3 /* skottie-dropshadow-style.json */,
+				3CC94651265DDBDD006CCAD3 /* skottie-masking-translucent.json */,
+				3CC94652265DDBDD006CCAD3 /* skottie-3d-2planes.json */,
+				3CC94653265DDBDD006CCAD3 /* skottie-prolevels-effect.json */,
+				3CC94654265DDBDD006CCAD3 /* skottie-inline-fonts.json */,
+				3CC94655265DDBDD006CCAD3 /* skottie-invert-effect.json */,
+				3CC94656265DDBDD006CCAD3 /* skottie-threshold-effect.json */,
+				3CC94657265DDBDD006CCAD3 /* skottie-sphere-lighting.json */,
+				3CC94658265DDBDD006CCAD3 /* skottie_sample_search.json */,
+				3CC94659265DDBDD006CCAD3 /* skottie-text-valign-bottom.json */,
+				3CC9465A265DDBDD006CCAD3 /* skottie-luma-matte.json */,
+				3CC9465B265DDBDD006CCAD3 /* skottie-levels-effect.json */,
+				3CC9465C265DDBDD006CCAD3 /* skottie_sample_webfont.json */,
+				3CC9465D265DDBDD006CCAD3 /* skottie-brightnesscontrast-legacy.json */,
+				3CC9465E265DDBDD006CCAD3 /* skottie-motion-blur-mask.json */,
+				3CC9465F265DDBDD006CCAD3 /* skottie-text-pointmode-downscaletofit.json */,
+				3CC94660265DDBDD006CCAD3 /* skottie-fractalnoise-turbulentbasic.json */,
+				3CC94661265DDBDD006CCAD3 /* skottie-motion-blur-ph360.json */,
+				3CC94662265DDBDD006CCAD3 /* skottie-text-animator-6.json */,
+				3CC94663265DDBDD006CCAD3 /* skottie-text-blur.json */,
+			);
+			path = skottie;
+			sourceTree = "<group>";
+		};
+		3CC9460E265DDBDD006CCAD3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9460F265DDBDD006CCAD3 /* triangle.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3CE63F28265DE7E10016B350 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F29265DE7E90016B350 /* libskia.a */,
+				3CE63F2A265DE7E90016B350 /* libskottie.a */,
+				3CE64083265DEABB0016B350 /* libsksg.a */,
+				3CE64087265DEADB0016B350 /* libskshaper.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3CE63F2D265DE8040016B350 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F2E265DE8040016B350 /* svg */,
+				3CE63F30265DE8040016B350 /* gpu */,
+				3CE63F5C265DE8040016B350 /* core */,
+				3CE63FB8265DE8040016B350 /* pathops */,
+				3CE63FBA265DE8040016B350 /* config */,
+				3CE63FBC265DE8040016B350 /* codec */,
+				3CE63FC1265DE8040016B350 /* sksl */,
+				3CE63FD0265DE8040016B350 /* encode */,
+				3CE63FD5265DE8040016B350 /* utils */,
+				3CE63FE9265DE8040016B350 /* docs */,
+				3CE63FEC265DE8040016B350 /* third_party */,
+				3CE63FFB265DE8040016B350 /* private */,
+				3CE64036265DE8040016B350 /* android */,
+				3CE64039265DE8040016B350 /* effects */,
+				3CE64051265DE8040016B350 /* ports */,
+				3CE64062265DE8040016B350 /* c */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3CE63F2E265DE8040016B350 /* svg */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F2F265DE8040016B350 /* SkSVGCanvas.h */,
+			);
+			path = svg;
+			sourceTree = "<group>";
+		};
+		3CE63F30265DE8040016B350 /* gpu */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F31265DE8040016B350 /* GrContextThreadSafeProxy.h */,
+				3CE63F32265DE8040016B350 /* GrDirectContext.h */,
+				3CE63F33265DE8040016B350 /* GrBackendSurfaceMutableState.h */,
+				3CE63F34265DE8040016B350 /* GrBackendSemaphore.h */,
+				3CE63F35265DE8040016B350 /* mock */,
+				3CE63F37265DE8040016B350 /* GrDriverBugWorkaroundsAutogen.h */,
+				3CE63F38265DE8040016B350 /* GrTypes.h */,
+				3CE63F39265DE8040016B350 /* vk */,
+				3CE63F3F265DE8040016B350 /* GrConfig.h */,
+				3CE63F40265DE8040016B350 /* GrDriverBugWorkarounds.h */,
+				3CE63F41265DE8040016B350 /* GrContextOptions.h */,
+				3CE63F42265DE8040016B350 /* GrBackendDrawableInfo.h */,
+				3CE63F43265DE8040016B350 /* gl */,
+				3CE63F50265DE8040016B350 /* GrYUVABackendTextures.h */,
+				3CE63F51265DE8040016B350 /* GrRecordingContext.h */,
+				3CE63F52265DE8040016B350 /* mtl */,
+				3CE63F55265DE8040016B350 /* GrBackendSurface.h */,
+				3CE63F56265DE8040016B350 /* dawn */,
+				3CE63F58265DE8040016B350 /* d3d */,
+			);
+			path = gpu;
+			sourceTree = "<group>";
+		};
+		3CE63F35265DE8040016B350 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F36265DE8040016B350 /* GrMockTypes.h */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		3CE63F39265DE8040016B350 /* vk */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F3A265DE8040016B350 /* GrVkTypes.h */,
+				3CE63F3B265DE8040016B350 /* GrVkBackendContext.h */,
+				3CE63F3C265DE8040016B350 /* GrVkExtensions.h */,
+				3CE63F3D265DE8040016B350 /* GrVkMemoryAllocator.h */,
+				3CE63F3E265DE8040016B350 /* GrVkVulkan.h */,
+			);
+			path = vk;
+			sourceTree = "<group>";
+		};
+		3CE63F43265DE8040016B350 /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F44265DE8040016B350 /* GrGLExtensions.h */,
+				3CE63F45265DE8040016B350 /* GrGLAssembleInterface.h */,
+				3CE63F46265DE8040016B350 /* GrGLTypes.h */,
+				3CE63F47265DE8040016B350 /* GrGLConfig_chrome.h */,
+				3CE63F48265DE8040016B350 /* egl */,
+				3CE63F4A265DE8040016B350 /* GrGLConfig.h */,
+				3CE63F4B265DE8040016B350 /* GrGLFunctions.h */,
+				3CE63F4C265DE8040016B350 /* glx */,
+				3CE63F4E265DE8040016B350 /* GrGLAssembleHelpers.h */,
+				3CE63F4F265DE8040016B350 /* GrGLInterface.h */,
+			);
+			path = gl;
+			sourceTree = "<group>";
+		};
+		3CE63F48265DE8040016B350 /* egl */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F49265DE8040016B350 /* GrGLMakeEGLInterface.h */,
+			);
+			path = egl;
+			sourceTree = "<group>";
+		};
+		3CE63F4C265DE8040016B350 /* glx */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F4D265DE8040016B350 /* GrGLMakeGLXInterface.h */,
+			);
+			path = glx;
+			sourceTree = "<group>";
+		};
+		3CE63F52265DE8040016B350 /* mtl */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F53265DE8040016B350 /* GrMtlTypes.h */,
+				3CE63F54265DE8040016B350 /* GrMtlBackendContext.h */,
+			);
+			path = mtl;
+			sourceTree = "<group>";
+		};
+		3CE63F56265DE8040016B350 /* dawn */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F57265DE8040016B350 /* GrDawnTypes.h */,
+			);
+			path = dawn;
+			sourceTree = "<group>";
+		};
+		3CE63F58265DE8040016B350 /* d3d */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F59265DE8040016B350 /* GrD3DTypesMinimal.h */,
+				3CE63F5A265DE8040016B350 /* GrD3DBackendContext.h */,
+				3CE63F5B265DE8040016B350 /* GrD3DTypes.h */,
+			);
+			path = d3d;
+			sourceTree = "<group>";
+		};
+		3CE63F5C265DE8040016B350 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63F5D265DE8040016B350 /* SkImage.h */,
+				3CE63F5E265DE8040016B350 /* SkRRect.h */,
+				3CE63F5F265DE8040016B350 /* SkMatrix.h */,
+				3CE63F60265DE8040016B350 /* SkColorSpace.h */,
+				3CE63F61265DE8040016B350 /* SkPaint.h */,
+				3CE63F62265DE8040016B350 /* SkFontMgr.h */,
+				3CE63F63265DE8040016B350 /* SkCoverageMode.h */,
+				3CE63F64265DE8040016B350 /* SkImageInfo.h */,
+				3CE63F65265DE8040016B350 /* SkStream.h */,
+				3CE63F66265DE8040016B350 /* SkPicture.h */,
+				3CE63F67265DE8040016B350 /* SkContourMeasure.h */,
+				3CE63F68265DE8040016B350 /* SkUnPreMultiply.h */,
+				3CE63F69265DE8040016B350 /* SkPictureRecorder.h */,
+				3CE63F6A265DE8040016B350 /* SkScalar.h */,
+				3CE63F6B265DE8040016B350 /* SkEncodedImageFormat.h */,
+				3CE63F6C265DE8040016B350 /* SkPngChunkReader.h */,
+				3CE63F6D265DE8040016B350 /* SkBlendMode.h */,
+				3CE63F6E265DE8040016B350 /* SkMaskFilter.h */,
+				3CE63F6F265DE8040016B350 /* SkCanvasVirtualEnforcer.h */,
+				3CE63F70265DE8040016B350 /* SkSwizzle.h */,
+				3CE63F71265DE8040016B350 /* SkMilestone.h */,
+				3CE63F72265DE8040016B350 /* SkImageFilter.h */,
+				3CE63F73265DE8040016B350 /* SkTraceMemoryDump.h */,
+				3CE63F74265DE8040016B350 /* SkPixelRef.h */,
+				3CE63F75265DE8040016B350 /* SkPoint3.h */,
+				3CE63F76265DE8040016B350 /* SkFontTypes.h */,
+				3CE63F77265DE8040016B350 /* SkFont.h */,
+				3CE63F78265DE8040016B350 /* SkOverdrawCanvas.h */,
+				3CE63F79265DE8040016B350 /* SkFontStyle.h */,
+				3CE63F7A265DE8040016B350 /* SkSurface.h */,
+				3CE63F7B265DE8040016B350 /* SkSpan.h */,
+				3CE63F7C265DE8040016B350 /* SkShader.h */,
+				3CE63F7D265DE8040016B350 /* SkRSXform.h */,
+				3CE63F7E265DE8040016B350 /* SkMath.h */,
+				3CE63F7F265DE8040016B350 /* SkClipOp.h */,
+				3CE63F80265DE8040016B350 /* SkDrawLooper.h */,
+				3CE63F81265DE8040016B350 /* SkSamplingOptions.h */,
+				3CE63F82265DE8040016B350 /* SkStrokeRec.h */,
+				3CE63F83265DE8040016B350 /* SkFontParameters.h */,
+				3CE63F84265DE8040016B350 /* SkYUVAInfo.h */,
+				3CE63F85265DE8040016B350 /* SkAnnotation.h */,
+				3CE63F86265DE8040016B350 /* SkYUVAPixmaps.h */,
+				3CE63F87265DE8040016B350 /* SkMallocPixelRef.h */,
+				3CE63F88265DE8040016B350 /* SkMatrix44.h */,
+				3CE63F89265DE8040016B350 /* SkRect.h */,
+				3CE63F8A265DE8040016B350 /* SkPathBuilder.h */,
+				3CE63F8B265DE8040016B350 /* SkDrawable.h */,
+				3CE63F8C265DE8040016B350 /* SkTileMode.h */,
+				3CE63F8D265DE8040016B350 /* SkTypeface.h */,
+				3CE63F8E265DE8040016B350 /* SkPathMeasure.h */,
+				3CE63F8F265DE8040016B350 /* SkRasterHandleAllocator.h */,
+				3CE63F90265DE8040016B350 /* SkGraphics.h */,
+				3CE63F91265DE8040016B350 /* SkColor.h */,
+				3CE63F92265DE8040016B350 /* SkTextBlob.h */,
+				3CE63F93265DE8040016B350 /* SkString.h */,
+				3CE63F94265DE8040016B350 /* SkDeferredDisplayList.h */,
+				3CE63F95265DE8040016B350 /* SkCubicMap.h */,
+				3CE63F96265DE8040016B350 /* SkICC.h */,
+				3CE63F97265DE8040016B350 /* SkPromiseImageTexture.h */,
+				3CE63F98265DE8040016B350 /* SkRegion.h */,
+				3CE63F99265DE8040016B350 /* SkDeferredDisplayListRecorder.h */,
+				3CE63F9A265DE8040016B350 /* SkImageGenerator.h */,
+				3CE63F9B265DE8040016B350 /* SkCanvas.h */,
+				3CE63F9C265DE8040016B350 /* SkFilterQuality.h */,
+				3CE63F9D265DE8040016B350 /* SkData.h */,
+				3CE63F9E265DE8040016B350 /* SkBitmap.h */,
+				3CE63F9F265DE8040016B350 /* SkColorPriv.h */,
+				3CE63FA0265DE8040016B350 /* SkVertices.h */,
+				3CE63FA1265DE8040016B350 /* SkPath.h */,
+				3CE63FA2265DE8040016B350 /* SkSurfaceCharacterization.h */,
+				3CE63FA3265DE8040016B350 /* SkFontArguments.h */,
+				3CE63FA4265DE8040016B350 /* SkExecutor.h */,
+				3CE63FA5265DE8040016B350 /* SkTypes.h */,
+				3CE63FA6265DE8040016B350 /* SkRefCnt.h */,
+				3CE63FA7265DE8040016B350 /* SkDataTable.h */,
+				3CE63FA8265DE8040016B350 /* SkColorFilter.h */,
+				3CE63FA9265DE8040016B350 /* SkPoint.h */,
+				3CE63FAA265DE8040016B350 /* SkBBHFactory.h */,
+				3CE63FAB265DE8040016B350 /* SkSerialProcs.h */,
+				3CE63FAC265DE8040016B350 /* SkPathEffect.h */,
+				3CE63FAD265DE8040016B350 /* SkImageEncoder.h */,
+				3CE63FAE265DE8040016B350 /* SkFontMetrics.h */,
+				3CE63FAF265DE8040016B350 /* SkPathTypes.h */,
+				3CE63FB0265DE8040016B350 /* SkSurfaceProps.h */,
+				3CE63FB1265DE8040016B350 /* SkBlurTypes.h */,
+				3CE63FB2265DE8040016B350 /* SkTime.h */,
+				3CE63FB3265DE8040016B350 /* SkDocument.h */,
+				3CE63FB4265DE8040016B350 /* SkM44.h */,
+				3CE63FB5265DE8040016B350 /* SkFlattenable.h */,
+				3CE63FB6265DE8040016B350 /* SkSize.h */,
+				3CE63FB7265DE8040016B350 /* SkPixmap.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		3CE63FB8265DE8040016B350 /* pathops */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FB9265DE8040016B350 /* SkPathOps.h */,
+			);
+			path = pathops;
+			sourceTree = "<group>";
+		};
+		3CE63FBA265DE8040016B350 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FBB265DE8040016B350 /* SkUserConfig.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		3CE63FBC265DE8040016B350 /* codec */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FBD265DE8040016B350 /* SkCodecAnimation.h */,
+				3CE63FBE265DE8040016B350 /* SkEncodedOrigin.h */,
+				3CE63FBF265DE8040016B350 /* SkCodec.h */,
+				3CE63FC0265DE8040016B350 /* SkAndroidCodec.h */,
+			);
+			path = codec;
+			sourceTree = "<group>";
+		};
+		3CE63FC1265DE8040016B350 /* sksl */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FC2265DE8040016B350 /* DSLWrapper.h */,
+				3CE63FC3265DE8040016B350 /* DSLErrorHandling.h */,
+				3CE63FC4265DE8040016B350 /* DSLCase.h */,
+				3CE63FC5265DE8040016B350 /* DSLExpression.h */,
+				3CE63FC6265DE8040016B350 /* DSLRuntimeEffects.h */,
+				3CE63FC7265DE8040016B350 /* DSLLayout.h */,
+				3CE63FC8265DE8040016B350 /* DSLCore.h */,
+				3CE63FC9265DE8040016B350 /* DSLVar.h */,
+				3CE63FCA265DE8040016B350 /* DSL.h */,
+				3CE63FCB265DE8040016B350 /* DSLType.h */,
+				3CE63FCC265DE8040016B350 /* DSLModifiers.h */,
+				3CE63FCD265DE8040016B350 /* DSLFunction.h */,
+				3CE63FCE265DE8040016B350 /* DSLBlock.h */,
+				3CE63FCF265DE8040016B350 /* DSLStatement.h */,
+			);
+			path = sksl;
+			sourceTree = "<group>";
+		};
+		3CE63FD0265DE8040016B350 /* encode */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FD1265DE8040016B350 /* SkJpegEncoder.h */,
+				3CE63FD2265DE8040016B350 /* SkWebpEncoder.h */,
+				3CE63FD3265DE8040016B350 /* SkEncoder.h */,
+				3CE63FD4265DE8040016B350 /* SkPngEncoder.h */,
+			);
+			path = encode;
+			sourceTree = "<group>";
+		};
+		3CE63FD5265DE8040016B350 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FD6265DE8040016B350 /* SkNoDrawCanvas.h */,
+				3CE63FD7265DE8040016B350 /* SkTextUtils.h */,
+				3CE63FD8265DE8040016B350 /* SkNullCanvas.h */,
+				3CE63FD9265DE8040016B350 /* SkCamera.h */,
+				3CE63FDA265DE8040016B350 /* SkCustomTypeface.h */,
+				3CE63FDB265DE8040016B350 /* SkBase64.h */,
+				3CE63FDC265DE8040016B350 /* SkAnimCodecPlayer.h */,
+				3CE63FDD265DE8040016B350 /* SkParsePath.h */,
+				3CE63FDE265DE8040016B350 /* SkCanvasStateUtils.h */,
+				3CE63FDF265DE8040016B350 /* SkEventTracer.h */,
+				3CE63FE0265DE8040016B350 /* mac */,
+				3CE63FE2265DE8040016B350 /* SkRandom.h */,
+				3CE63FE3265DE8040016B350 /* SkOrderedFontMgr.h */,
+				3CE63FE4265DE8040016B350 /* SkPaintFilterCanvas.h */,
+				3CE63FE5265DE8040016B350 /* SkParse.h */,
+				3CE63FE6265DE8040016B350 /* SkTraceEventPhase.h */,
+				3CE63FE7265DE8040016B350 /* SkShadowUtils.h */,
+				3CE63FE8265DE8040016B350 /* SkNWayCanvas.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		3CE63FE0265DE8040016B350 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FE1265DE8040016B350 /* SkCGUtils.h */,
+			);
+			path = mac;
+			sourceTree = "<group>";
+		};
+		3CE63FE9265DE8040016B350 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FEA265DE8040016B350 /* SkPDFDocument.h */,
+				3CE63FEB265DE8040016B350 /* SkXPSDocument.h */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		3CE63FEC265DE8040016B350 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FED265DE8040016B350 /* skcms */,
+				3CE63FF0265DE8040016B350 /* vulkan */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		3CE63FED265DE8040016B350 /* skcms */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FEE265DE8040016B350 /* LICENSE */,
+				3CE63FEF265DE8040016B350 /* skcms.h */,
+			);
+			path = skcms;
+			sourceTree = "<group>";
+		};
+		3CE63FF0265DE8040016B350 /* vulkan */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FF1265DE8040016B350 /* LICENSE */,
+				3CE63FF2265DE8040016B350 /* vulkan */,
+			);
+			path = vulkan;
+			sourceTree = "<group>";
+		};
+		3CE63FF2265DE8040016B350 /* vulkan */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FF3265DE8040016B350 /* vulkan.h */,
+				3CE63FF4265DE8040016B350 /* vk_platform.h */,
+				3CE63FF5265DE8040016B350 /* vulkan_win32.h */,
+				3CE63FF6265DE8040016B350 /* vulkan_macos.h */,
+				3CE63FF7265DE8040016B350 /* vulkan_xcb.h */,
+				3CE63FF8265DE8040016B350 /* vulkan_ios.h */,
+				3CE63FF9265DE8040016B350 /* vulkan_core.h */,
+				3CE63FFA265DE8040016B350 /* vulkan_android.h */,
+			);
+			path = vulkan;
+			sourceTree = "<group>";
+		};
+		3CE63FFB265DE8040016B350 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				3CE63FFC265DE8040016B350 /* SkNx_sse.h */,
+				3CE63FFD265DE8040016B350 /* GrMtlTypesPriv.h */,
+				3CE63FFE265DE8040016B350 /* SkSLStatement.h */,
+				3CE63FFF265DE8040016B350 /* SkColorData.h */,
+				3CE64000265DE8040016B350 /* SkSafe32.h */,
+				3CE64001265DE8040016B350 /* GrResourceKey.h */,
+				3CE64002265DE8040016B350 /* SkSLIRNode.h */,
+				3CE64003265DE8040016B350 /* SkFloatingPoint.h */,
+				3CE64004265DE8040016B350 /* SkMutex.h */,
+				3CE64005265DE8040016B350 /* SkThreadAnnotations.h */,
+				3CE64006265DE8040016B350 /* SkSLLayout.h */,
+				3CE64007265DE8040016B350 /* SkPathRef.h */,
+				3CE64008265DE8040016B350 /* SkTemplates.h */,
+				3CE64009265DE8040016B350 /* SkWeakRefCnt.h */,
+				3CE6400A265DE8040016B350 /* SkSLModifiers.h */,
+				3CE6400B265DE8040016B350 /* SkDeque.h */,
+				3CE6400C265DE8040016B350 /* SkMalloc.h */,
+				3CE6400D265DE8040016B350 /* SkTo.h */,
+				3CE6400E265DE8040016B350 /* SkOnce.h */,
+				3CE6400F265DE8040016B350 /* SkSLProgramKind.h */,
+				3CE64010265DE8040016B350 /* SkSLString.h */,
+				3CE64011265DE8040016B350 /* SkImageInfoPriv.h */,
+				3CE64012265DE8040016B350 /* SkSpinlock.h */,
+				3CE64013265DE8040016B350 /* GrImageContext.h */,
+				3CE64014265DE8040016B350 /* SkTHash.h */,
+				3CE64015265DE8040016B350 /* SkNoncopyable.h */,
+				3CE64016265DE8040016B350 /* SkNx.h */,
+				3CE64017265DE8040016B350 /* GrSingleOwner.h */,
+				3CE64018265DE8040016B350 /* GrTypesPriv.h */,
+				3CE64019265DE8040016B350 /* SkVx.h */,
+				3CE6401A265DE8040016B350 /* GrGLTypesPriv.h */,
+				3CE6401B265DE8040016B350 /* SkSafe_math.h */,
+				3CE6401C265DE8040016B350 /* SkTDArray.h */,
+				3CE6401D265DE8040016B350 /* SkSLProgramElement.h */,
+				3CE6401E265DE8040016B350 /* SkShadowFlags.h */,
+				3CE6401F265DE8040016B350 /* GrD3DTypesPriv.h */,
+				3CE64020265DE8040016B350 /* SkOpts_spi.h */,
+				3CE64021265DE8040016B350 /* SkTArray.h */,
+				3CE64022265DE8040016B350 /* SkTLogic.h */,
+				3CE64023265DE8040016B350 /* SkBitmaskEnum.h */,
+				3CE64024265DE8040016B350 /* SkSLSymbol.h */,
+				3CE64025265DE8040016B350 /* GrSharedEnums.h */,
+				3CE64026265DE8040016B350 /* GrContext_Base.h */,
+				3CE64027265DE8040016B350 /* SkThreadID.h */,
+				3CE64028265DE8040016B350 /* SkChecksum.h */,
+				3CE64029265DE8040016B350 /* SkEncodedInfo.h */,
+				3CE6402A265DE8040016B350 /* SkFloatBits.h */,
+				3CE6402B265DE8040016B350 /* SkTFitsIn.h */,
+				3CE6402C265DE8040016B350 /* SkMacros.h */,
+				3CE6402D265DE8040016B350 /* SkNx_neon.h */,
+				3CE6402E265DE8040016B350 /* SkTPin.h */,
+				3CE6402F265DE8040016B350 /* SkSLDefines.h */,
+				3CE64030265DE8040016B350 /* SkFixed.h */,
+				3CE64031265DE8040016B350 /* SkSemaphore.h */,
+				3CE64032265DE8040016B350 /* SkIDChangeListener.h */,
+				3CE64033265DE8040016B350 /* SkHalf.h */,
+				3CE64034265DE8040016B350 /* GrVkTypesPriv.h */,
+				3CE64035265DE8040016B350 /* SkSLSampleUsage.h */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		3CE64036265DE8040016B350 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64037265DE8040016B350 /* SkAnimatedImage.h */,
+				3CE64038265DE8040016B350 /* SkAndroidFrameworkUtils.h */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		3CE64039265DE8040016B350 /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6403A265DE8040016B350 /* SkShaderMaskFilter.h */,
+				3CE6403B265DE8040016B350 /* Sk1DPathEffect.h */,
+				3CE6403C265DE8040016B350 /* SkDashPathEffect.h */,
+				3CE6403D265DE8040016B350 /* SkColorMatrixFilter.h */,
+				3CE6403E265DE8040016B350 /* SkGradientShader.h */,
+				3CE6403F265DE8040016B350 /* SkOpPathEffect.h */,
+				3CE64040265DE8040016B350 /* SkTableMaskFilter.h */,
+				3CE64041265DE8040016B350 /* SkColorMatrix.h */,
+				3CE64042265DE8040016B350 /* SkPerlinNoiseShader.h */,
+				3CE64043265DE8040016B350 /* SkStrokeAndFillPathEffect.h */,
+				3CE64044265DE8040016B350 /* SkCornerPathEffect.h */,
+				3CE64045265DE8040016B350 /* SkOverdrawColorFilter.h */,
+				3CE64046265DE8040016B350 /* SkDiscretePathEffect.h */,
+				3CE64047265DE8040016B350 /* SkBlurMaskFilter.h */,
+				3CE64048265DE8040016B350 /* SkLumaColorFilter.h */,
+				3CE64049265DE8040016B350 /* SkTableColorFilter.h */,
+				3CE6404A265DE8040016B350 /* SkRuntimeEffect.h */,
+				3CE6404B265DE8040016B350 /* SkTrimPathEffect.h */,
+				3CE6404C265DE8040016B350 /* SkImageFilters.h */,
+				3CE6404D265DE8040016B350 /* Sk2DPathEffect.h */,
+				3CE6404E265DE8040016B350 /* SkLayerDrawLooper.h */,
+				3CE6404F265DE8040016B350 /* SkBlurDrawLooper.h */,
+				3CE64050265DE8040016B350 /* SkHighContrastFilter.h */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+		3CE64051265DE8040016B350 /* ports */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64052265DE8040016B350 /* SkFontMgr_directory.h */,
+				3CE64053265DE8040016B350 /* SkFontMgr_indirect.h */,
+				3CE64054265DE8040016B350 /* SkImageGeneratorWIC.h */,
+				3CE64055265DE8040016B350 /* SkFontConfigInterface.h */,
+				3CE64056265DE8040016B350 /* SkFontMgr_empty.h */,
+				3CE64057265DE8040016B350 /* SkTypeface_win.h */,
+				3CE64058265DE8040016B350 /* SkTypeface_mac.h */,
+				3CE64059265DE8040016B350 /* SkRemotableFontMgr.h */,
+				3CE6405A265DE8040016B350 /* SkFontMgr_fuchsia.h */,
+				3CE6405B265DE8040016B350 /* SkImageGeneratorCG.h */,
+				3CE6405C265DE8040016B350 /* SkFontMgr_fontconfig.h */,
+				3CE6405D265DE8040016B350 /* SkCFObject.h */,
+				3CE6405E265DE8040016B350 /* SkFontMgr_mac_ct.h */,
+				3CE6405F265DE8040016B350 /* SkImageGeneratorNDK.h */,
+				3CE64060265DE8040016B350 /* SkFontMgr_android.h */,
+				3CE64061265DE8040016B350 /* SkFontMgr_FontConfigInterface.h */,
+			);
+			path = ports;
+			sourceTree = "<group>";
+		};
+		3CE64062265DE8040016B350 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64063265DE8040016B350 /* sk_matrix.h */,
+				3CE64064265DE8040016B350 /* sk_path.h */,
+				3CE64065265DE8040016B350 /* sk_colorspace.h */,
+				3CE64066265DE8040016B350 /* sk_maskfilter.h */,
+				3CE64067265DE8040016B350 /* sk_shader.h */,
+				3CE64068265DE8040016B350 /* sk_imageinfo.h */,
+				3CE64069265DE8040016B350 /* sk_data.h */,
+				3CE6406A265DE8040016B350 /* sk_image.h */,
+				3CE6406B265DE8040016B350 /* sk_paint.h */,
+				3CE6406C265DE8040016B350 /* sk_surface.h */,
+				3CE6406D265DE8040016B350 /* sk_picture.h */,
+				3CE6406E265DE8040016B350 /* sk_types.h */,
+				3CE6406F265DE8050016B350 /* sk_canvas.h */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		3CE64072265DE86B0016B350 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6407B265DE93C0016B350 /* skresources */,
+				3CE64073265DE8750016B350 /* skottie */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		3CE64073265DE8750016B350 /* skottie */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64078265DE8EF0016B350 /* src */,
+				3CE64074265DE87B0016B350 /* include */,
+			);
+			path = skottie;
+			sourceTree = "<group>";
+		};
+		3CE64074265DE87B0016B350 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64075265DE87B0016B350 /* ExternalLayer.h */,
+				3CE64076265DE87B0016B350 /* SkottieProperty.h */,
+				3CE64077265DE87B0016B350 /* Skottie.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3CE64078265DE8EF0016B350 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3CE64079265DE8F60016B350 /* text */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		3CE64079265DE8F60016B350 /* text */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6407A265DE8FF0016B350 /* SkottieShaper.h */,
+			);
+			path = text;
+			sourceTree = "<group>";
+		};
+		3CE6407B265DE93C0016B350 /* skresources */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6407C265DE9420016B350 /* include */,
+			);
+			path = skresources;
+			sourceTree = "<group>";
+		};
+		3CE6407C265DE9420016B350 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6407D265DE9420016B350 /* SkResources.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3CE6407E265DEA990016B350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6407F265DEA990016B350 /* Metal.framework */,
+				3CE64080265DEA990016B350 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC945B9265DD989006CCAD3 /* skottie_ios_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC945D3265DD98E006CCAD3 /* Build configuration list for PBXNativeTarget "skottie_ios_app" */;
+			buildPhases = (
+				3CC945B6265DD989006CCAD3 /* Sources */,
+				3CC945B7265DD989006CCAD3 /* Frameworks */,
+				3CC945B8265DD989006CCAD3 /* Resources */,
+				3CC946D6265DDD2A006CCAD3 /* CopyFiles */,
+				3CE63F26265DDE0B0016B350 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skottie_ios_app;
+			productName = skottie_ios_app;
+			productReference = 3CC945BA265DD989006CCAD3 /* skottie_ios_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC945B2265DD989006CCAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3CC945B9265DD989006CCAD3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 3CC945B5265DD989006CCAD3 /* Build configuration list for PBXProject "skottie_ios_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC945B1265DD989006CCAD3;
+			productRefGroup = 3CC945BB265DD989006CCAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC945B9265DD989006CCAD3 /* skottie_ios_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC945B8265DD989006CCAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC945CD265DD98E006CCAD3 /* LaunchScreen.storyboard in Resources */,
+				3CC945CA265DD98E006CCAD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC945B6265DD989006CCAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC945EB265DDA29006CCAD3 /* SkiaUIContext.mm in Sources */,
+				3CC945C5265DD989006CCAD3 /* ViewController.m in Sources */,
+				3CC945E5265DDA29006CCAD3 /* SkMetalViewBridge.mm in Sources */,
+				3CC945E6265DDA29006CCAD3 /* GrContextHolder.mm in Sources */,
+				3CE6408E265E079A0016B350 /* SkiaGLContext.mm in Sources */,
+				3CC945E8265DDA29006CCAD3 /* SkiaContext.mm in Sources */,
+				3CC945E9265DDA29006CCAD3 /* SkiaViewController.mm in Sources */,
+				3CC945E7265DDA29006CCAD3 /* SkiaMetalContext.mm in Sources */,
+				3CC945BF265DD989006CCAD3 /* AppDelegate.m in Sources */,
+				3CC945E4265DDA29006CCAD3 /* SkottieViewController.mm in Sources */,
+				3CC945EE265DDA54006CCAD3 /* AppViewController.m in Sources */,
+				3CC945D0265DD98E006CCAD3 /* main.m in Sources */,
+				3CE6408B265DEC490016B350 /* PreviewViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CC945CB265DD98E006CCAD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC945CC265DD98E006CCAD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CC945D1265DD98E006CCAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CC945D2265DD98E006CCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC945D4265DD98E006CCAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 492U995837;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					SK_METAL,
+				);
+				INFOPLIST_FILE = skottie_ios_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/skottie_ios_app/Skia/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taihe.skottie-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.taihe.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/skottie_ios_app/Skia";
+			};
+			name = Debug;
+		};
+		3CC945D5265DD98E006CCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 492U995837;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = SK_METAL;
+				INFOPLIST_FILE = skottie_ios_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/skottie_ios_app/Skia/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taihe.skottie-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.taihe.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/skottie_ios_app/Skia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC945B5265DD989006CCAD3 /* Build configuration list for PBXProject "skottie_ios_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC945D1265DD98E006CCAD3 /* Debug */,
+				3CC945D2265DD98E006CCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC945D3265DD98E006CCAD3 /* Build configuration list for PBXNativeTarget "skottie_ios_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC945D4265DD98E006CCAD3 /* Debug */,
+				3CC945D5265DD98E006CCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC945B2265DD989006CCAD3 /* Project object */;
+}
