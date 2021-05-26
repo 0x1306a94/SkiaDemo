@@ -1,5 +1,7 @@
 # SkiaDemo
-Skia 官方示例demo,可运行
+* Skia 官方示例demo可运行
+* `skottie_ios_app` `iOS`端使用`Skia`渲染`Lottie`
+* `skottie2movie` 用`Skia`渲染`Lottie`生成视频文件
 
 # 编译Skia
 * [先按照此页面步骤执行](https://skia.org/docs/user/download/)
