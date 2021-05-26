@@ -126,6 +126,9 @@ int main(int argc, char **argv) {
 				if (!surf) {
 					context = nullptr;
 				}
+				if (FLAGS_verbose && surf) {
+					SkDebugf("Render with Metal\n");
+				}
 			}
 			if (!surf) {
 				surf = SkSurface::MakeRaster(info);
