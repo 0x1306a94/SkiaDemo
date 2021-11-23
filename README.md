@@ -37,7 +37,7 @@ ninja -C out/ios_arm64 skia
 # 或者编译全部
 # ninja -C out/ios_arm64
 ```
-* 编译 `macOS`
+* 编译 `macOS` M1 需要将 `x64` 改为 `arm64`
 ```shell
 cd skia
 mkdir -p out/macosx
