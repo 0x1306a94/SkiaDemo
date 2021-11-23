@@ -9,9 +9,15 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
-LIBRARY_SEARCH_PATHS = $(inherited) $(SRCROOT)/skottie2movie/Skia/lib /usr/local/opt/ffmpeg/lib
+HOMEBREW_DIR_ARM = /opt/homebrew/opt
+HOMEBREW_DIR_X86 = /usr/local/opt
 
-HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/skottie2movie/Skia /usr/local/opt/ffmpeg/include
+LIBRARY_SEARCH_PATHS[arch=x86] = $(inherited) $(HOMEBREW_DIR_X86)/ffmpeg/lib $(SRCROOT)/skottie2movie/Skia/lib/x86
+LIBRARY_SEARCH_PATHS[arch=arm64] = $(inherited) $(HOMEBREW_DIR_ARM)/ffmpeg/lib $(SRCROOT)/skottie2movie/Skia/lib/arm64
+
+HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/skottie2movie/Skia
+HEADER_SEARCH_PATHS[arch=x86] = $(inherited) $(HOMEBREW_DIR_X86)/ffmpeg/include
+HEADER_SEARCH_PATHS[arch=arm64] = $(inherited) $(HOMEBREW_DIR_ARM)/ffmpeg/include
 
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) SK_METAL
 
